@@ -1,0 +1,13 @@
+{
+    "name": "High jump",
+    "loading_priority": 1,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "compound_origins:secondary_toggle"
+    },
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    }
+}

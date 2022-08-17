@@ -1,0 +1,9 @@
+{
+    "name": "Reduced health",
+    "powers": [
+        "compound_origins:reduced_health"
+    ],
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

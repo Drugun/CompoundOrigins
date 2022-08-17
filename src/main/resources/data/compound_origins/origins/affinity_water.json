@@ -1,0 +1,12 @@
+{
+    "name": "Water",
+	"powers": [
+        "compound_origins:water_shot"
+    ],
+    "icon": {
+        "item": "minecraft:salmon"
+    },
+    "order": 5,
+    "impact": 1,
+    "loading_priority": 1
+}

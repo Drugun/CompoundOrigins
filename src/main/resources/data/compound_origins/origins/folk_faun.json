@@ -1,0 +1,14 @@
+{
+    "name": "Faun",
+    "powers": [
+        "compound_origins:secondary_toggle",
+        "compound_origins:high_jump",
+        "compound_origins:fast_movement"
+    ],
+    "icon": {
+        "item": "minecraft:goat_horn"
+    },
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

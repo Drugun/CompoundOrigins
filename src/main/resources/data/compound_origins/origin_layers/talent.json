@@ -1,0 +1,11 @@
+{
+    "order": 7,
+    "origins": [
+        "compound_origins:talent_health",
+        "compound_origins:talent_hunger"
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "name": "Talent",
+    "allow_random": true
+}

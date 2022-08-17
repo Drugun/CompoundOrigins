@@ -1,0 +1,12 @@
+{
+    "name": "Fire",
+	"powers": [
+        "compound_origins:fire_shot"
+    ],
+    "icon": {
+        "item": "minecraft:blaze_powder"
+    },
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

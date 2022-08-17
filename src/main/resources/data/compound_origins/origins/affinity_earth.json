@@ -1,0 +1,12 @@
+{
+    "name": "Earth",
+	"powers": [
+        "compound_origins:earth_shot"
+    ],
+    "icon": {
+        "item": "minecraft:firework_star"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

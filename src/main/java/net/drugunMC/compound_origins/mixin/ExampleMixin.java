@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package net.drugunMC.compound_origins.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import net.drugunMC.compound_origins.CompoundOrigins;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		CompoundOrigins.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

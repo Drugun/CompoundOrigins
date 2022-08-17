@@ -1,33 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "compound_origins",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Compound Origins",
+  "description": "Origins expansion",
   "authors": [
-    "Me!"
+    "Drugun"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Drugun/CompoundOrigins",
+    "sources": "https://github.com/Drugun/CompoundOrigins"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/compound_origins/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.drugunMC.compound_origins.CompoundOrigins"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "compound_origins.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"

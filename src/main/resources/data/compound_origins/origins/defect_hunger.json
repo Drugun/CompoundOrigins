@@ -1,0 +1,9 @@
+{
+    "name": "Increased hunger",
+    "powers": [
+        "compound_origins:increased_hunger"
+    ],
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Lightning",
+	"powers": [
+        "compound_origins:lightning_shot"
+    ],
+    "icon": {
+        "item": "minecraft:gunpowder"
+    },
+    "order": 3,
+    "impact": 1,
+    "loading_priority": 1
+}

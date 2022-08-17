@@ -1,0 +1,11 @@
+{
+    "order": 11,
+    "origins": [
+        "compound_origins:defect_health",
+        "compound_origins:defect_hunger"
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "name": "Defect",
+    "allow_random": true
+}

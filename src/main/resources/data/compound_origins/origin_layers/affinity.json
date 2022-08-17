@@ -1,0 +1,14 @@
+{
+    "order": 5,
+    "origins": [
+        "compound_origins:affinity_earth",
+        "compound_origins:affinity_nature",
+        "compound_origins:affinity_fire",
+        "compound_origins:affinity_water",
+        "compound_origins:affinity_lightning"
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "name": "Affinity",
+    "allow_random": true
+}
