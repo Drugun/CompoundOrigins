@@ -1,12 +1,12 @@
 {
-    "name": "Dragon",
+    "name": "Dragon (black)",
     "powers": [
-        "compound_origins:wings"
+        "compound_origins:wings_black"
     ],
     "icon": {
         "item": "icarus:black_dragon_wings"
     },
-    "order": 1,
+    "order": 5,
     "impact": 1,
     "loading_priority": 1
 }

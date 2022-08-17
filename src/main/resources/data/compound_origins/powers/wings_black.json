@@ -1,0 +1,11 @@
+{
+    "name": "Black Wings",
+    "type": "origins:starting_equipment",
+    "description": "Your wings are black.",
+    "stacks": [
+        {
+            "item": "icarus:black_dragon_wings"
+        }
+    ],
+    "recurrent": true
+}

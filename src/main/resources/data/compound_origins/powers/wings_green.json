@@ -1,0 +1,11 @@
+{
+    "name": "Green Wings",
+    "type": "origins:starting_equipment",
+    "description": "Your wings are green.",
+    "stacks": [
+        {
+            "item": "icarus:green_dragon_wings"
+        }
+    ],
+    "recurrent": true
+}

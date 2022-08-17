@@ -1,0 +1,12 @@
+{
+    "name": "Dragon (red)",
+    "powers": [
+        "compound_origins:wings_red"
+    ],
+    "icon": {
+        "item": "icarus:red_dragon_wings"
+    },
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

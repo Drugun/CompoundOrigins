@@ -1,0 +1,23 @@
+{
+    "order": 4,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:folk_dragon",
+                "layer": "compound_origins:folk"
+            },
+            "origins": [
+                "compound_origins:folk_dragon_green",
+                "compound_origins:folk_dragon_red",
+                "compound_origins:folk_dragon_blue",
+                "compound_origins:folk_dragon_grey",
+                "compound_origins:folk_dragon_black"
+            ]
+        }
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "name": "Folk variety",
+    "allow_random": true
+}
