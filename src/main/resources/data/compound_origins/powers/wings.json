@@ -1,5 +1,3 @@
 {
-    "name": "Wings",
-    "type": "origins:simple",
-    "description": "You have wings."
+    "type": "origins:simple"
 }

@@ -1,6 +1,4 @@
 {
-	"name": "Icy shot",
-    "description": "Spew freezing water!",
   "type": "origins:fire_projectile",
   "cooldown": 200,
   "count": 1,

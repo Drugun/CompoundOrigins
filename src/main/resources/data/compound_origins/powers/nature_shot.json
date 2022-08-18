@@ -1,6 +1,4 @@
 {
-	"name": "Poison spit",
-    "description": "Spit out a poison glob!",
   "type": "origins:fire_projectile",
   "cooldown": 200,
   "count": 1,

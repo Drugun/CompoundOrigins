@@ -1,6 +1,4 @@
 {
-	"name": "Fire shot",
-    "description": "Spit out a fireball!",
   "type": "origins:fire_projectile",
   "cooldown": 200,
   "count": 1,

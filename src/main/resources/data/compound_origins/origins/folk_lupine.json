@@ -1,7 +1,8 @@
 {
-    "name": "Lupine",
     "powers": [
-        "compound_origins:secondary_toggle"
+        "compound_origins:secondary_toggle",
+        "compound_origins:night_vision",
+        "compound_origins:feeding"
     ],
     "icon": {
         "item": "minecraft:bone"

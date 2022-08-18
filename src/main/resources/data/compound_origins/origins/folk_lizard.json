@@ -1,7 +1,8 @@
 {
-    "name": "Lizard",
     "powers": [
-        "compound_origins:secondary_toggle"
+        "compound_origins:secondary_toggle",
+        "compound_origins:invisibility",
+        "compound_origins:climbing"
     ],
     "icon": {
         "item": "minecraft:ender_eye"

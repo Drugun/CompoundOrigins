@@ -1,0 +1,8 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:feed",
+        "food": 2,
+        "saturation": 0.5
+    }
+}

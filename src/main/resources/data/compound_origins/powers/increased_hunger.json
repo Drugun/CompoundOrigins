@@ -1,6 +1,4 @@
 {
-    "name": "Increased hunger",
-    "loading_priority": 1,
     "type": "origins:modify_exhaustion",
     "modifier": {
         "operation": "multiply_base",

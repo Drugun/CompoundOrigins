@@ -7,14 +7,14 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Dragon
     - Wings
   - Lupine
-    - Night vision (toggle-secondary)                                             <b>(TODO)</b>
-    - Feed on kill                                                   <b>(TODO)</b>
+    - Night vision (toggle-secondary)
+    - Feed on kill
   - Faun
     - Fast movement
     - High jumps (toggle-secondary)
   - Lizard
-    - Invisibility (toggle-secondary)                                             <b>(TODO)</b>
-    - Climbing                                                        <b>(TODO)</b>
+    - Invisibility (toggle-secondary)
+    - Climbing
   - Octopus
     - Extra block reach                                             <b>(TODO)</b>
     - Entity wallhack (toggle-secondary)                                             <b>(TODO)</b>

@@ -1,6 +1,4 @@
 {
-	"name": "Stone avalanche",
-    "description": "Spew stones!",
   "type": "origins:fire_projectile",
   "cooldown": 200,
   "count": 15,

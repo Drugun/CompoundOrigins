@@ -1,10 +1,9 @@
 {
-    "name": "Black Wings",
     "type": "origins:starting_equipment",
-    "description": "Your wings are black.",
     "stacks": [
         {
-            "item": "icarus:black_dragon_wings"
+            "item": "icarus:black_dragon_wings",
+            "tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1},{id:\"minecraft:binding_curse\",lvl:1}]}"
         }
     ],
     "recurrent": true

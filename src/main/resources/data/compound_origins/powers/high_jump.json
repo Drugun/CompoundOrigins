@@ -1,5 +1,4 @@
 {
-    "name": "High jump",
     "loading_priority": 1,
     "condition": {
         "type": "origins:power_active",
