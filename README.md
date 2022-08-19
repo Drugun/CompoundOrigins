@@ -12,6 +12,7 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Faun
     - Fast movement
     - High jumps (toggle-secondary)
+    - Reduced fall damage
   - Lizard
     - Invisibility (toggle-secondary)
     - Climbing
@@ -49,7 +50,6 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Increased armour                                             <b>(TODO)</b>
   - Decreased food consumption
   - Reduced knockback                                             <b>(TODO)</b>
-  - Reduced fall damage                                             <b>(TODO)</b>
 - Defect:
   - Carnivore                                             <b>(TODO)</b>
   - Herbivore                                             <b>(TODO)</b>
