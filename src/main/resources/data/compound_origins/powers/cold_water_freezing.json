@@ -1,0 +1,22 @@
+{
+    "type": "origins:freeze",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+
+            },
+            {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:precipitation",
+                    "precipitation": "snow"
+                }
+            }
+        ]
+    }
+}

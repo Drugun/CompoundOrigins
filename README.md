@@ -22,10 +22,9 @@ An Origins mod expansion that introduces several layers and mini-origins that al
 - Affinity:
   - Fire
     - Fireball (active-primary)
-    - Fire/lava immunity                                              <b>(TODO)</b>
-    - Freeze in cold water                                              <b>(TODO)</b>
-    - Extra slippery ice                                              <b>(TODO)</b>
-    - Freeze in dark in cold biomes                                             <b>(TODO)</b>
+    - Fire/lava immunity
+    - Freeze in cold water
+    - Freeze in dark in cold biomes
   - Water
     - Icy projectile (active-primary)
     - Water breathing                                                        <b>(TODO)</b>
