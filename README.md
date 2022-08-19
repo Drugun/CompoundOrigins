@@ -17,8 +17,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Invisibility (toggle-secondary)
     - Climbing
   - Octopus
-    - Extra block reach                                             <b>(TODO)</b>
-    - Entity wallhack (toggle-secondary)                                             <b>(TODO)</b>
+    - Extra block reach
+    - Entity wallhack (toggle-secondary)
 - Affinity:
   - Fire
     - Fireball (active-primary)
