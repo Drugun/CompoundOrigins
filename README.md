@@ -27,8 +27,9 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Freeze in dark in cold biomes
   - Water
     - Icy projectile (active-primary)
-    - Water breathing                                                        <b>(TODO)</b>
-    - DoT in sunlight when in hot biomes and not in water                                    <b>(TODO)</b>
+    - Water breathing
+    - No slowed block breaking underwater
+    - DoT in sunlight when in hot biomes and not in water
   - Earth
     - Stone avalanche (active-primary)
     - Dig basic stone without tools                                             <b>(TODO)</b>
