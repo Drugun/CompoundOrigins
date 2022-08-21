@@ -1,0 +1,30 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 1,
+        "source": {
+            "name": "dryout",
+            "unblockable": true,
+            "bypasses_armor": true
+        }
+    },
+    "interval": 100,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "type": "origins:biome",
+                "biomes": [
+                    "minecraft:desert",
+                    "minecraft:badlands",
+                    "minecraft:eroded_badlands",
+                    "minecraft:wooded_badlands"
+                ]
+            }
+        ]
+    }
+}

@@ -1,6 +1,9 @@
 {
 	"powers": [
-        "compound_origins:water_shot"
+        "compound_origins:water_shot",
+        "compound_origins:waterbreathing",
+        "origins:aqua_affinity",
+        "compound_origins:overheating"
     ],
     "icon": {
         "item": "minecraft:salmon"
