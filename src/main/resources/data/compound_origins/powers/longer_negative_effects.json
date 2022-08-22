@@ -1,0 +1,18 @@
+{
+    "type": "origins:modify_status_effect_duration",
+    "status_effects": [
+        "minecraft:blindness",
+        "minecraft:hunger",
+        "minecraft:mining_fatigue",
+        "minecraft:nausea",
+        "minecraft:poison",
+        "minecraft:slowness",
+        "minecraft:unluck",
+        "minecraft:weakness",
+        "minecraft:wither"
+    ],
+    "modifier": {
+        "operation": "multiply_base_multiplicative",
+        "value": 0.5
+    }
+}

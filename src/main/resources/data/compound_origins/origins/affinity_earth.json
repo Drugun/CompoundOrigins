@@ -1,6 +1,9 @@
 {
 	"powers": [
-        "compound_origins:earth_shot"
+        "compound_origins:earth_shot",
+        "compound_origins:stone_breaker",
+        "compound_origins:stone_breaker_properiser",
+        "compound_origins:longer_negative_effects"
     ],
     "icon": {
         "item": "minecraft:firework_star"

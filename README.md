@@ -32,9 +32,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - DoT in sunlight when in hot biomes and not in water
   - Earth
     - Stone avalanche (active-primary)
-    - Dig basic stone without tools                                             <b>(TODO)</b>
-    - Dig dirt/sand/gravel faster                                             <b>(TODO)</b>
-    - Reduced healing rate                                             <b>(TODO)</b>
+    - Pickaxe-like hand digging
+    - Longer negative status effects
   - Nature
     - Multi-debuff poison projectile (active-primary)
     - Free bonemealing
