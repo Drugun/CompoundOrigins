@@ -1,6 +1,10 @@
 {
 	"powers": [
-        "compound_origins:nature_shot"
+        "compound_origins:nature_shot",
+        "compound_origins:gatherer_resource",
+        "compound_origins:gatherer_regen",
+        "compound_origins:gatherer_bonemeal",
+        "compound_origins:more_fire_damage"
     ],
     "icon": {
         "item": "minecraft:carrot"

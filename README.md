@@ -37,8 +37,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Reduced healing rate                                             <b>(TODO)</b>
   - Nature
     - Multi-debuff poison projectile (active-primary)
-    - Passive regen                                                    <b>(TODO)</b>
-    - Increased fire damage                                             <b>(TODO)</b>
+    - Free bonemealing
+    - Increased fire damage
   - Lightning
     - Targeted explosion (active-primary)                                             <b>(TODO)</b>
     - Lightning immunity                                             <b>(TODO)</b>
@@ -49,6 +49,7 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Increased max health
   - Increased armour                                             <b>(TODO)</b>
   - Decreased food consumption
+  - Passive regen                                                    <b>(TODO)</b>
   - Reduced knockback                                             <b>(TODO)</b>
 - Defect:
   - Carnivore                                             <b>(TODO)</b>
