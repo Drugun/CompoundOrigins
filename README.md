@@ -1,6 +1,6 @@
 # Compound Origins for Minecraft
 
-An Origins mod expansion that introduces several layers and mini-origins that allow players to craft their own origin. Also disables the vanilla origin layer.
+An Origins mod expansion that introduces several layers and mini-origins that allow players to craft their own origin. The vanilla origin layer is disabled.
 
 ## Contents
 - Folk:
@@ -64,3 +64,5 @@ An Origins mod expansion that introduces several layers and mini-origins that al
 - Origins : https://modrinth.com/mod/origins
 - Icarus : https://modrinth.com/mod/icarus
 
+## Recommended mods
+- Origins: Classes : https://modrinth.com/mod/origins-classes

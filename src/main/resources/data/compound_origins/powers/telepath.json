@@ -1,5 +1,8 @@
 {
     "type": "origins:entity_glow",
+    "entity_condition": {
+        "type": "origins:living"
+    },
     "bientity_condition": {
         "type": "origins:distance",
         "comparison": "<=",
