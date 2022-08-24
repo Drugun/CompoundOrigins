@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:invert",
+        "action": {
+            "type": "origins:damage",
+            "amount": 2.0,
+            "source": {
+                "name": "thorns"
+            }
+        }
+    },
+    "cooldown": 10,
+    "damage_condition": {
+        "type": "origins:projectile",
+        "inverted": true
+    }
+}

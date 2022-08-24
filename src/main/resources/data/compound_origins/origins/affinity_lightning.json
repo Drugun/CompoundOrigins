@@ -1,6 +1,10 @@
 {
 	"powers": [
-        "compound_origins:lightning_shot"
+        "compound_origins:lightning_strike",
+        "compound_origins:lightning_immunity",
+        "compound_origins:slower_swimming",
+        "compound_origins:melee_retaliation",
+        "compound_origins:water_exhaustion"
     ],
     "icon": {
         "item": "minecraft:gunpowder"
