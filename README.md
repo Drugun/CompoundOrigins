@@ -39,7 +39,7 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Free bonemealing
     - Increased fire damage
   - Lightning
-    - Targeted lightning (active-primary)                                             <b>(TODO)</b>
+    - Targeted lightning (active-primary)
     - Lightning immunity
     - Melee retaliation
     - Slowed and exhausted in water
