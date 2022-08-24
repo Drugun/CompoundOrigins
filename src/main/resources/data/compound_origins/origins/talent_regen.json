@@ -1,9 +1,9 @@
 {
     "powers": [
-        "compound_origins:increased_hunger"
+        "compound_origins:passive_regen"
     ],
     "icon": {
-        "item": "minecraft:cooked_beef"
+        "item": "minecraft:golden_apple"
     },
     "order": 7,
     "impact": 1,

@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:reduced_armour"
+    ],
+    "icon": {
+        "item": "minecraft:iron_chestplate"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

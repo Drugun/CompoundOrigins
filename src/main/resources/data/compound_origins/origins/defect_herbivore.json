@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:herbivore"
+    ],
+    "icon": {
+        "item": "minecraft:bread"
+    },
+    "order": 6,
+    "impact": 1,
+    "loading_priority": 1
+}

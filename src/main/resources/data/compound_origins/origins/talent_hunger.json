@@ -2,7 +2,10 @@
     "powers": [
         "compound_origins:decreased_hunger"
     ],
-    "order": 2,
+    "icon": {
+        "item": "minecraft:cooked_beef"
+    },
+    "order": 5,
     "impact": 1,
     "loading_priority": 1
 }

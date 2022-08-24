@@ -1,9 +1,9 @@
 {
     "powers": [
-        "compound_origins:increased_health"
+        "compound_origins:reduced_regen"
     ],
     "icon": {
-        "item": "minecraft:glass_bottle"
+        "item": "minecraft:apple"
     },
     "order": 4,
     "impact": 1,

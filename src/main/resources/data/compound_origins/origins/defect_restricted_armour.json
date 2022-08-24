@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:restricted_armour"
+    ],
+    "icon": {
+        "item": "minecraft:golden_helmet"
+    },
+    "order": 8,
+    "impact": 1,
+    "loading_priority": 1
+}

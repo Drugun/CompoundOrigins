@@ -44,20 +44,22 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Melee retaliation
     - Slowed and exhausted in water
 - Talent:
-  - Increased damage                                             <b>(TODO)</b>
   - Increased max health
-  - Increased armour                                             <b>(TODO)</b>
+  - Increased armour
   - Decreased food consumption
-  - Passive regen                                                    <b>(TODO)</b>
-  - Reduced knockback                                             <b>(TODO)</b>
+  - Increased regeneration
+  - Passive regen
+  - Increased attack speed
+  - Reduced knockback
 - Defect:
-  - Carnivore                                             <b>(TODO)</b>
-  - Herbivore                                             <b>(TODO)</b>
-  - Reduced damage                                             <b>(TODO)</b>
+  - Carnivore
+  - Herbivore
   - Reduced max health
-  - Reduced armour                                             <b>(TODO)</b>
+  - Reduced armour
   - Increased food consumption
-  - Cannot wear helmet or boots                                             <b>(TODO)</b>
+  - Reduced regeneration
+  - Cannot wear helmet or boots
+  - Reduced attack speed
 
 ## Required mods
 - Origins : https://modrinth.com/mod/origins

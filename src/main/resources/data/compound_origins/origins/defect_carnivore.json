@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "origins:carnivore"
+    ],
+    "icon": {
+        "item": "minecraft:porkchop"
+    },
+    "order": 3,
+    "impact": 1,
+    "loading_priority": 1
+}

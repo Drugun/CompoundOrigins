@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:increased_regen"
+    ],
+    "icon": {
+        "item": "minecraft:apple"
+    },
+    "order": 3,
+    "impact": 1,
+    "loading_priority": 1
+}
