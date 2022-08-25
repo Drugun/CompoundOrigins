@@ -7,10 +7,10 @@
         "compound_origins:talent_attack_speed",
         "compound_origins:talent_healing",
         "compound_origins:talent_knockback",
-        "compound_origins:talent_regen"
+        "compound_origins:talent_regen",
+        "compound_origins:talent_superstomach"
     ],
     "enabled": true,
     "loading_priority": 1,
-    "name": "Talent",
     "allow_random": true
 }

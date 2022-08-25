@@ -3,7 +3,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "compound_origins:gatherer_resource",
+        "resource": "compound_origins:naturomancer_resource",
         "change": 1
     },
     "interval": 20

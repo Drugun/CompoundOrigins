@@ -1,5 +1,4 @@
 {
-    "loading_priority": 1,
     "condition": {
         "type": "origins:power_active",
         "power": "compound_origins:secondary_toggle"
@@ -8,5 +7,12 @@
     "modifier": {
         "operation": "multiply_base",
         "value": 0.7
-    }
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/toggle.png",
+            "text": "compound_origins.gui.badge.secondary"
+        }
+    ]
 }

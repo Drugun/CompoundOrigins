@@ -6,7 +6,7 @@
         "compound_origins:longer_negative_effects"
     ],
     "icon": {
-        "item": "minecraft:firework_star"
+        "item": "minecraft:cobblestone"
     },
     "order": 1,
     "impact": 1,

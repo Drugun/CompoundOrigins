@@ -51,6 +51,7 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Passive regen
   - Increased attack speed
   - Reduced knockback
+  - Can eat grass and leaves
 - Defect:
   - Carnivore
   - Herbivore

@@ -6,7 +6,7 @@
         "compound_origins:overheating"
     ],
     "icon": {
-        "item": "minecraft:salmon"
+        "item": "minecraft:tropical_fish"
     },
     "order": 5,
     "impact": 1,

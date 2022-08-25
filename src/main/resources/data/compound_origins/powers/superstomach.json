@@ -1,0 +1,48 @@
+{
+    "type": "origins:action_on_block_use",
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "compound_origins:superstomach_edible"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:feed",
+                "food": 4,
+                "saturation": 0
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:slowness",
+                    "amplifier": 1,
+                    "duration": 600,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:mining_fatigue",
+                    "amplifier": 1,
+                    "duration": 600,
+                    "show_particles": false,
+                    "show_icon": false
+                }
+            }
+        ]
+
+    },
+    "block_action": {
+        "type": "origins:set_block",
+        "block": "minecraft:air"
+    }
+}

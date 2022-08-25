@@ -1,5 +1,16 @@
 {
-  "power.compound_origins.feeding.name": "Feeding"
+
+  "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
+  "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
+
+  "layer.compound_origins.affinity.name": "Affinity",
+  "layer.compound_origins.folk.name": "Folk",
+  "layer.compound_origins.folk_variety.name": "Folk variety",
+  "layer.compound_origins.talent.name": "Talent",
+  "layer.compound_origins.defect.name": "Defect",
+
+  "power.compound_origins.feeding.name": "Feeding",
+  "power.compound_origins.feeding.description": "You replenish a bit of hunger upon killing a mod."
 
 }
 

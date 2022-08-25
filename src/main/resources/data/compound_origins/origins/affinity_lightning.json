@@ -7,7 +7,7 @@
         "compound_origins:water_exhaustion"
     ],
     "icon": {
-        "item": "minecraft:gunpowder"
+        "item": "minecraft:glass"
     },
     "order": 3,
     "impact": 1,

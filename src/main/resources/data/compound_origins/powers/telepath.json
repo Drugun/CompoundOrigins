@@ -12,5 +12,12 @@
         "type": "origins:power_active",
         "power": "compound_origins:secondary_toggle"
     },
-    "use_teams": true
+    "use_teams": true,
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/toggle.png",
+            "text": "compound_origins.gui.badge.secondary"
+        }
+    ]
 }

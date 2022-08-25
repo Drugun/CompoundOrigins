@@ -55,6 +55,8 @@ dependencies {
 
 
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+	//modImplementation "com.github.MerchantPug:apugli:${project.apugli_version}"
+	//include "com.github.MerchantPug:apugli:${project.apugli_version}"
 
 }
 

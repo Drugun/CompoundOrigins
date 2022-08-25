@@ -1,0 +1,19 @@
+{
+  "values": [
+    "minecraft:grass_block",
+    "#minecraft:saplings",
+    "#minecraft:crops",
+    "#minecraft:tall_flowers",
+    "#minecraft:cave_vines",
+    "minecraft:bamboo",
+    "minecraft:bamboo_sapling",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:cocoa",
+    "minecraft:glow_lichen",
+    "minecraft:moss_block",
+    "minecraft:small_dripleaf",
+    "minecraft:big_dripleaf",
+    "minecraft:sweet_berry_bush"
+  ]
+}
