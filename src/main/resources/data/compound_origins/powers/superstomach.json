@@ -44,5 +44,12 @@
     "block_action": {
         "type": "origins:set_block",
         "block": "minecraft:air"
-    }
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "compound_origins.gui.badge.right_click_empty_hand"
+        }
+    ]
 }

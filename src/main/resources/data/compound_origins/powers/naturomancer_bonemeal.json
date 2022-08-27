@@ -23,5 +23,12 @@
     },
     "hands": [
         "main_hand"
+    ],
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "compound_origins.gui.badge.right_click_empty_hand"
+        }
     ]
 }

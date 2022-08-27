@@ -2,6 +2,9 @@
 
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
+  "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
+
+
 
   "layer.compound_origins.affinity.name": "Affinity",
   "layer.compound_origins.folk.name": "Folk",
@@ -9,8 +12,245 @@
   "layer.compound_origins.talent.name": "Talent",
   "layer.compound_origins.defect.name": "Defect",
 
+
+
+  "origin.compound_origins.folk_dragon.name": "Dragon",
+  "origin.compound_origins.folk_dragon.description": "You are a dragon with innate flight.",
+  "origin.compound_origins.folk_dragon_black.name": "Black Dragon",
+  "origin.compound_origins.folk_dragon_black.description": "Your wings are black.",
+  "origin.compound_origins.folk_dragon_blue.name": "Blue Dragon",
+  "origin.compound_origins.folk_dragon_blue.description": "Your wings are blue.",
+  "origin.compound_origins.folk_dragon_green.name": "Green Dragon",
+  "origin.compound_origins.folk_dragon_green.description": "Your wings are green.",
+  "origin.compound_origins.folk_dragon_grey.name": "Grey Dragon",
+  "origin.compound_origins.folk_dragon_grey.description": "Your wings are grey.",
+  "origin.compound_origins.folk_dragon_red.name": "Red Dragon",
+  "origin.compound_origins.folk_dragon_red.description": "Your wings are red.",
+
+  "origin.compound_origins.folk_faun.name": "Faun",
+  "origin.compound_origins.folk_faun.description": "You are a forest creature that moves with speed and grace.",
+
+  "origin.compound_origins.folk_lupine.name": "Lupine",
+  "origin.compound_origins.folk_lupine.description": "You are a wolf-like night-time hunter.",
+
+  "origin.compound_origins.folk_lizard.name": "Lizard",
+  "origin.compound_origins.folk_lizard.description": "You are an elusive lizard.",
+
+  "origin.compound_origins.folk_octopus.name": "Octopus",
+  "origin.compound_origins.folk_octopus.description": "You are a creature that originates from the ocean depths and is equipped with strange abilities.",
+
+
+
+  "origin.compound_origins.affinity_fire.name": "Fire",
+  "origin.compound_origins.affinity_fire.description": "Fire courses through your veins.",
+
+  "origin.compound_origins.affinity_water.name": "Water",
+  "origin.compound_origins.affinity_water.description": "You are one with water.",
+
+  "origin.compound_origins.affinity_earth.name": "Earth",
+  "origin.compound_origins.affinity_earth.description": "The stony depths are your home.",
+
+  "origin.compound_origins.affinity_nature.name": "Nature",
+  "origin.compound_origins.affinity_nature.description": "You overflow with life and growth.",
+
+  "origin.compound_origins.affinity_lightning.name": "Lightning",
+  "origin.compound_origins.affinity_lightning.description": "The skies heed your call.",
+
+
+
+  "origin.compound_origins.talent_armour.name": "Increased armour",
+  "origin.compound_origins.talent_armour.description": "You have bonus armour.",
+
+  "origin.compound_origins.talent_attack_speed.name": "Increased attack speed",
+  "origin.compound_origins.talent_attack_speed.description": "You can attack faster.",
+
+  "origin.compound_origins.talent_healing.name": "Amplified healing",
+  "origin.compound_origins.talent_healing.description": "All healing is increased.",
+
+  "origin.compound_origins.talent_health.name": "Increased health",
+  "origin.compound_origins.talent_health.description": "You have higher maximum health.",
+
+  "origin.compound_origins.talent_hunger.name": "Decreased hunger",
+  "origin.compound_origins.talent_hunger.description": "You need less food.",
+
+  "origin.compound_origins.talent_knockback.name": "Decreased knockback",
+  "origin.compound_origins.talent_knockback.description": "Attacks don't knock you away as much.",
+
+  "origin.compound_origins.talent_regen.name": "Passive regeneration",
+  "origin.compound_origins.talent_regen.description": "You always slowly regenerate health.",
+
+  "origin.compound_origins.talent_superstomach.name": "Superstomach",
+  "origin.compound_origins.talent_superstomach.description": "You can eat grass and leaves, although you will be temporarily slowed and weakened.",
+
+
+
+  "origin.compound_origins.defect_armour.name": "Reduced armour",
+  "origin.compound_origins.defect_armour.description": "You have reduced armour.",
+
+  "origin.compound_origins.defect_attack_speed.name": "Decreased attack speed",
+  "origin.compound_origins.defect_attack_speed.description": "You have reduced attack speed.",
+
+  "origin.compound_origins.defect_healing.name": "Diminished healing",
+  "origin.compound_origins.defect_healing.description": "All healing is reduced.",
+
+  "origin.compound_origins.defect_health.name": "Decreased health",
+  "origin.compound_origins.defect_health.description": "Your maximum health is decreased.",
+
+  "origin.compound_origins.defect_hunger.name": "Increased hunger",
+  "origin.compound_origins.defect_hunger.description": "You get hungry faster.",
+
+  "origin.compound_origins.defect_restricted_armour.name": "Restricted armour",
+  "origin.compound_origins.defect_restricted_armour.description": "You cannot wear helmets and boots.",
+
+  "origin.compound_origins.defect_carnivore.name": "Carnivore",
+  "origin.compound_origins.defect_carnivore.description": "You can only eat meat.",
+
+  "origin.compound_origins.defect_herbivore.name": "Herbivore",
+  "origin.compound_origins.defect_herbivore.description": "You cannot eat meat.",
+
+
+
   "power.compound_origins.feeding.name": "Feeding",
-  "power.compound_origins.feeding.description": "You replenish a bit of hunger upon killing a mod."
+  "power.compound_origins.feeding.description": "You replenish a bit of hunger upon killing a mob.",
+
+  "power.compound_origins.climbing.name": "Climbing",
+  "power.compound_origins.climbing.description": "You can climb walls.",
+
+  "power.compound_origins.cold_dark_freezing.name": "Hot-blooded",
+  "power.compound_origins.cold_dark_freezing.description": "When in darkness in a cold biome, you freeze.",
+
+  "power.compound_origins.cold_water_freezing.name": "Uninsulated",
+  "power.compound_origins.cold_water_freezing.description": "When in water in a cold biome, you freeze.",
+
+  "power.compound_origins.decreased_hunger.name": "Decreased hunger",
+  "power.compound_origins.decreased_hunger.description": "You get hungry 30% slower.",
+
+  "power.compound_origins.earth_shot.name": "Rockfall",
+  "power.compound_origins.earth_shot.description": "Unleash a barrage of 15 rocks that deal 2 damage each. 10 second cooldown.",
+
+  "power.compound_origins.extra_block_reach.name": "Longer block reach",
+  "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
+
+  "power.compound_origins.fast_movement.name": "Faster movement",
+  "power.compound_origins.fast_movement.description": "You move 30% faster.",
+
+  "power.compound_origins.fire_lava_immunity.name": "Heat-resistant",
+  "power.compound_origins.fire_lava_immunity.description": "You take no damage from fire and lava.",
+
+  "power.compound_origins.fire_shot.name": "Fireball",
+  "power.compound_origins.fire_shot.description": "Spit out an incendiary glob. 10 second cooldown.",
+
+  "power.compound_origins.herbivore.name": "Herbivore",
+  "power.compound_origins.herbivore.description": "You cannot eat meat.",
+
+  "power.compound_origins.high_jump.name": "Higher jumps",
+  "power.compound_origins.high_jump.description": "You can jump 3 blocks high.",
+
+  "power.compound_origins.increased_armour.name": "Increased armour",
+  "power.compound_origins.increased_armour.description": "You have +3 armour.",
+
+  "power.compound_origins.increased_attack_speed.name": "Increased attack speed",
+  "power.compound_origins.increased_attack_speed.description": "You attack 15% faster.",
+
+  "power.compound_origins.increased_health.name": "Increased health",
+  "power.compound_origins.increased_health.description": "You have +4 maximum health.",
+
+  "power.compound_origins.increased_hunger.name": "Increased hunger",
+  "power.compound_origins.increased_hunger.description": "You get hungry 30% slower.",
+
+  "power.compound_origins.increased_regen.name": "Amplified healing",
+  "power.compound_origins.increased_regen.description": "All healing is increased by 20%",
+
+  "power.compound_origins.invisibility.name": "Invisibility",
+  "power.compound_origins.invisibility.description": "Your skin can make you invisible. However, armour and equipment is unaffected.",
+
+  "power.compound_origins.lightning_immunity.name": "Lightning immunity",
+  "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",
+
+  "power.compound_origins.lightning_strike.name": "Lightning strike",
+  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks.",
+
+  "power.compound_origins.longer_negative_effects.name": "Prolonged negative effects",
+  "power.compound_origins.longer_negative_effects.description": "Negative status effects last 50% longer on you.",
+
+  "power.compound_origins.melee_retaliation.name": "Melee retaliation",
+  "power.compound_origins.melee_retaliation.description": "Melee attackers get shocked for 2 damage.",
+
+  "power.compound_origins.more_fire_damage.name": "Extra flammable",
+  "power.compound_origins.more_fire_damage.description": "You suffer more damage from fire and lava.",
+
+  "power.compound_origins.nature_shot.name": "Poison spit",
+  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several debuffs.",
+
+  "power.compound_origins.naturomancer_bonemeal.name": "Naturomancer",
+  "power.compound_origins.naturomancer_bonemeal.description": "You can fertilise plants for free.",
+
+  "power.compound_origins.night_vision.name": "Night vision",
+  "power.compound_origins.night_vision.description": "You can see better in the dark.",
+
+  "power.compound_origins.overheating.name": "Wet skin",
+  "power.compound_origins.overheating.description": "You suffer damage when in direct sunlight in a hot biome.",
+
+  "power.compound_origins.passive_regen.name": "Regeneration",
+  "power.compound_origins.passive_regen.description": "You replenish 1 health point every 7 seconds.",
+
+  "power.compound_origins.reduced_armour.name": "Reduced armour",
+  "power.compound_origins.reduced_armour.description": "You have -4 armour.",
+
+  "power.compound_origins.reduced_attack_speed.name": "",
+  "power.compound_origins.reduced_attack_speed.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": "",
+
+  "power.compound_origins.XXXXXXXXXXXX.name": "",
+  "power.compound_origins.XXXXXXXXXXXX.description": ""
+
 
 }
 
