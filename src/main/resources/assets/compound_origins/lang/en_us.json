@@ -16,15 +16,15 @@
 
   "origin.compound_origins.folk_dragon.name": "Dragon",
   "origin.compound_origins.folk_dragon.description": "You are a dragon with innate flight.",
-  "origin.compound_origins.folk_dragon_black.name": "Black Dragon",
+  "origin.compound_origins.folk_dragon_black.name": "Black dragon",
   "origin.compound_origins.folk_dragon_black.description": "Your wings are black.",
-  "origin.compound_origins.folk_dragon_blue.name": "Blue Dragon",
+  "origin.compound_origins.folk_dragon_blue.name": "Blue dragon",
   "origin.compound_origins.folk_dragon_blue.description": "Your wings are blue.",
-  "origin.compound_origins.folk_dragon_green.name": "Green Dragon",
+  "origin.compound_origins.folk_dragon_green.name": "Green dragon",
   "origin.compound_origins.folk_dragon_green.description": "Your wings are green.",
-  "origin.compound_origins.folk_dragon_grey.name": "Grey Dragon",
+  "origin.compound_origins.folk_dragon_grey.name": "Grey dragon",
   "origin.compound_origins.folk_dragon_grey.description": "Your wings are grey.",
-  "origin.compound_origins.folk_dragon_red.name": "Red Dragon",
+  "origin.compound_origins.folk_dragon_red.name": "Red dragon",
   "origin.compound_origins.folk_dragon_red.description": "Your wings are red.",
 
   "origin.compound_origins.folk_faun.name": "Faun",
@@ -58,25 +58,25 @@
 
 
 
-  "origin.compound_origins.talent_armour.name": "Increased armour",
+  "origin.compound_origins.talent_armour.name": "Hardened",
   "origin.compound_origins.talent_armour.description": "You have bonus armour.",
 
-  "origin.compound_origins.talent_attack_speed.name": "Increased attack speed",
+  "origin.compound_origins.talent_attack_speed.name": "Nimble",
   "origin.compound_origins.talent_attack_speed.description": "You can attack faster.",
 
-  "origin.compound_origins.talent_healing.name": "Amplified healing",
+  "origin.compound_origins.talent_healing.name": "Vigorous",
   "origin.compound_origins.talent_healing.description": "All healing is increased.",
 
-  "origin.compound_origins.talent_health.name": "Increased health",
+  "origin.compound_origins.talent_health.name": "Enduring",
   "origin.compound_origins.talent_health.description": "You have higher maximum health.",
 
-  "origin.compound_origins.talent_hunger.name": "Decreased hunger",
+  "origin.compound_origins.talent_hunger.name": "Resourceful",
   "origin.compound_origins.talent_hunger.description": "You need less food.",
 
-  "origin.compound_origins.talent_knockback.name": "Decreased knockback",
+  "origin.compound_origins.talent_knockback.name": "Anchored",
   "origin.compound_origins.talent_knockback.description": "Attacks don't knock you away as much.",
 
-  "origin.compound_origins.talent_regen.name": "Passive regeneration",
+  "origin.compound_origins.talent_regen.name": "Regeneration",
   "origin.compound_origins.talent_regen.description": "You always slowly regenerate health.",
 
   "origin.compound_origins.talent_superstomach.name": "Superstomach",
@@ -84,22 +84,22 @@
 
 
 
-  "origin.compound_origins.defect_armour.name": "Reduced armour",
+  "origin.compound_origins.defect_armour.name": "Fragile",
   "origin.compound_origins.defect_armour.description": "You have reduced armour.",
 
-  "origin.compound_origins.defect_attack_speed.name": "Decreased attack speed",
+  "origin.compound_origins.defect_attack_speed.name": "Clumsy",
   "origin.compound_origins.defect_attack_speed.description": "You have reduced attack speed.",
 
-  "origin.compound_origins.defect_healing.name": "Diminished healing",
+  "origin.compound_origins.defect_healing.name": "Unhealing",
   "origin.compound_origins.defect_healing.description": "All healing is reduced.",
 
-  "origin.compound_origins.defect_health.name": "Decreased health",
+  "origin.compound_origins.defect_health.name": "Feeble",
   "origin.compound_origins.defect_health.description": "Your maximum health is decreased.",
 
-  "origin.compound_origins.defect_hunger.name": "Increased hunger",
+  "origin.compound_origins.defect_hunger.name": "Voracious",
   "origin.compound_origins.defect_hunger.description": "You get hungry faster.",
 
-  "origin.compound_origins.defect_restricted_armour.name": "Restricted armour",
+  "origin.compound_origins.defect_restricted_armour.name": "Nonconforming",
   "origin.compound_origins.defect_restricted_armour.description": "You cannot wear helmets and boots.",
 
   "origin.compound_origins.defect_carnivore.name": "Carnivore",
@@ -128,7 +128,7 @@
   "power.compound_origins.earth_shot.name": "Rockfall",
   "power.compound_origins.earth_shot.description": "Unleash a barrage of 15 rocks that deal 2 damage each. 10 second cooldown.",
 
-  "power.compound_origins.extra_block_reach.name": "Longer block reach",
+  "power.compound_origins.extra_block_reach.name": "Telekinesis",
   "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
 
   "power.compound_origins.fast_movement.name": "Faster movement",
@@ -149,14 +149,14 @@
   "power.compound_origins.increased_armour.name": "Increased armour",
   "power.compound_origins.increased_armour.description": "You have +3 armour.",
 
-  "power.compound_origins.increased_attack_speed.name": "Increased attack speed",
+  "power.compound_origins.increased_attack_speed.name": "Faster attacks",
   "power.compound_origins.increased_attack_speed.description": "You attack 15% faster.",
 
   "power.compound_origins.increased_health.name": "Increased health",
   "power.compound_origins.increased_health.description": "You have +4 maximum health.",
 
   "power.compound_origins.increased_hunger.name": "Increased hunger",
-  "power.compound_origins.increased_hunger.description": "You get hungry 30% slower.",
+  "power.compound_origins.increased_hunger.description": "You get hungry 40% faster.",
 
   "power.compound_origins.increased_regen.name": "Amplified healing",
   "power.compound_origins.increased_regen.description": "All healing is increased by 20%",
@@ -170,7 +170,7 @@
   "power.compound_origins.lightning_strike.name": "Lightning strike",
   "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks.",
 
-  "power.compound_origins.longer_negative_effects.name": "Prolonged negative effects",
+  "power.compound_origins.longer_negative_effects.name": "Slow metabolism",
   "power.compound_origins.longer_negative_effects.description": "Negative status effects last 50% longer on you.",
 
   "power.compound_origins.melee_retaliation.name": "Melee retaliation",
