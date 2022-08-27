@@ -37,7 +37,7 @@
   "origin.compound_origins.folk_lizard.description": "You are an elusive lizard.",
 
   "origin.compound_origins.folk_octopus.name": "Octopus",
-  "origin.compound_origins.folk_octopus.description": "You are a creature that originates from the ocean depths and is equipped with strange abilities.",
+  "origin.compound_origins.folk_octopus.description": "You are an enigmatic creature equipped with strange abilities.",
 
 
 
@@ -80,7 +80,7 @@
   "origin.compound_origins.talent_regen.description": "You always slowly regenerate health.",
 
   "origin.compound_origins.talent_superstomach.name": "Superstomach",
-  "origin.compound_origins.talent_superstomach.description": "You can eat grass and leaves, although you will be temporarily slowed and weakened.",
+  "origin.compound_origins.talent_superstomach.description": "You can eat grass and leaves, although you will be temporarily slowed.",
 
 
 
@@ -168,7 +168,7 @@
   "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",
 
   "power.compound_origins.lightning_strike.name": "Lightning strike",
-  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks.",
+  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks. 10 second cooldown.",
 
   "power.compound_origins.longer_negative_effects.name": "Slow metabolism",
   "power.compound_origins.longer_negative_effects.description": "Negative status effects last 50% longer on you.",
@@ -180,10 +180,10 @@
   "power.compound_origins.more_fire_damage.description": "You suffer more damage from fire and lava.",
 
   "power.compound_origins.nature_shot.name": "Poison spit",
-  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several debuffs.",
+  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several debuffs. 10 second cooldown.",
 
   "power.compound_origins.naturomancer_bonemeal.name": "Naturomancer",
-  "power.compound_origins.naturomancer_bonemeal.description": "You can fertilise plants for free.",
+  "power.compound_origins.naturomancer_bonemeal.description": "You can fertilise plants without bonemeal.",
 
   "power.compound_origins.night_vision.name": "Night vision",
   "power.compound_origins.night_vision.description": "You can see better in the dark.",
@@ -197,59 +197,49 @@
   "power.compound_origins.reduced_armour.name": "Reduced armour",
   "power.compound_origins.reduced_armour.description": "You have -4 armour.",
 
-  "power.compound_origins.reduced_attack_speed.name": "",
-  "power.compound_origins.reduced_attack_speed.description": "",
+  "power.compound_origins.reduced_attack_speed.name": "Slower attacks",
+  "power.compound_origins.reduced_attack_speed.description": "You attack 20% slower.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.reduced_fall_dmg.name": "Strong legs",
+  "power.compound_origins.reduced_fall_dmg.description": "You take 4 less damage from falls.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.reduced_health.name": "Reduced health",
+  "power.compound_origins.reduced_health.description": "You have -6 maximum health.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.reduced_knockback.name": "Reduced knockback",
+  "power.compound_origins.reduced_knockback.description": "Attacks knock you away 50% less.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.reduced_regen.name": "Reduced regeneration",
+  "power.compound_origins.reduced_regen.description": "All healing is diminished by 30%.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.restricted_armour.name": "Restricted armour",
+  "power.compound_origins.restricted_armour.description": "You cannot wear helmets or boots.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.slower_swimming.name": "Water aversion",
+  "power.compound_origins.slower_swimming.description": "You move 40% slower in water.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.stone_breaker.name": "Geomancer",
+  "power.compound_origins.stone_breaker.description": "You can mine blocks with your hands as if you were using a pickaxe.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.superstomach.name": "Superstomach",
+  "power.compound_origins.superstomach.description": "You can eat grass and leaves, but it will slow you down for a while.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.telepath.name": "Telepath",
+  "power.compound_origins.telepath.description": "At medium distances, you can sense other living beings, even in dark or through walls.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.water_exhaustion.name": "Conductive",
+  "power.compound_origins.water_exhaustion.description": "Being in water makes you hungry.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.water_shot.name": "Ice burst",
+  "power.compound_origins.water_shot.description": "Throw a blob of icy water to immobilise foes. 10 second cooldown.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.waterbreathing.name": "Water breathing",
+  "power.compound_origins.waterbreathing.description": "You can breathe in water.",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
+  "power.compound_origins.wings.name": "Wings",
+  "power.compound_origins.wings.description": "You have wings, making you capable of gliding and active flight."
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
 
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
-
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": "",
-
-  "power.compound_origins.XXXXXXXXXXXX.name": "",
-  "power.compound_origins.XXXXXXXXXXXX.description": ""
 
 
 }
