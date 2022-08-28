@@ -1,6 +1,6 @@
 {
   "type": "origins:fire_projectile",
-  "cooldown": 200,
+  "cooldown": 300,
   "count": 15,
   "interval": 3,
   "hud_render": {

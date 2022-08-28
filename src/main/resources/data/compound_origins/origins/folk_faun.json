@@ -3,12 +3,13 @@
         "compound_origins:secondary_toggle",
         "compound_origins:high_jump",
         "compound_origins:fast_movement",
-        "compound_origins:reduced_fall_dmg"
+        "compound_origins:reduced_fall_dmg",
+        "compound_origins:increased_hunger_folk"
     ],
     "icon": {
         "item": "minecraft:goat_horn"
     },
     "order": 2,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

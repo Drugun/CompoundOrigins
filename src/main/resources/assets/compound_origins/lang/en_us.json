@@ -126,7 +126,7 @@
   "power.compound_origins.decreased_hunger.description": "You get hungry 30% slower.",
 
   "power.compound_origins.earth_shot.name": "Rockfall",
-  "power.compound_origins.earth_shot.description": "Unleash a barrage of 15 rocks that deal 2 damage each. 10 second cooldown.",
+  "power.compound_origins.earth_shot.description": "Unleash a barrage of 15 rocks that deal 2 damage each. 15 second cooldown.",
 
   "power.compound_origins.extra_block_reach.name": "Telekinesis",
   "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
@@ -138,7 +138,7 @@
   "power.compound_origins.fire_lava_immunity.description": "You take no damage from fire and lava.",
 
   "power.compound_origins.fire_shot.name": "Fireball",
-  "power.compound_origins.fire_shot.description": "Spit out an incendiary glob. 10 second cooldown.",
+  "power.compound_origins.fire_shot.description": "Spit out an incendiary glob. 15 second cooldown.",
 
   "power.compound_origins.herbivore.name": "Herbivore",
   "power.compound_origins.herbivore.description": "You cannot eat meat.",
@@ -158,6 +158,9 @@
   "power.compound_origins.increased_hunger.name": "Increased hunger",
   "power.compound_origins.increased_hunger.description": "You get hungry 40% faster.",
 
+  "power.compound_origins.increased_hunger_folk.name": "High consumption",
+  "power.compound_origins.increased_hunger_folk.description": "You need to eat 50% more.",
+
   "power.compound_origins.increased_regen.name": "Amplified healing",
   "power.compound_origins.increased_regen.description": "All healing is increased by 20%",
 
@@ -168,7 +171,7 @@
   "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",
 
   "power.compound_origins.lightning_strike.name": "Lightning strike",
-  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks. 10 second cooldown.",
+  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks. 15 second cooldown.",
 
   "power.compound_origins.longer_negative_effects.name": "Slow metabolism",
   "power.compound_origins.longer_negative_effects.description": "Negative status effects last 50% longer on you.",

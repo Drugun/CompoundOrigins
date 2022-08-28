@@ -8,7 +8,7 @@
         "shape_type": "collider",
         "command_at_hit": "summon minecraft:lightning_bolt"
     },
-    "cooldown": 200,
+    "cooldown": 300,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/resource_bar.png",

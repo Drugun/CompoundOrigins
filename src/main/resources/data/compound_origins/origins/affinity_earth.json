@@ -9,6 +9,6 @@
         "item": "minecraft:cobblestone"
     },
     "order": 1,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

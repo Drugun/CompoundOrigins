@@ -48,7 +48,7 @@ public class WaterAffinityProjectile extends ThrownItemEntity {
             List<LivingEntity> list = this.world.getNonSpectatingEntities(LivingEntity.class, box);
             if (!list.isEmpty()) {
                 for (LivingEntity e: list) {
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 5, 3), owner);
+                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 6, 3), owner);
                 }
 
             }

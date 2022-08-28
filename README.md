@@ -6,19 +6,24 @@ An Origins mod expansion that introduces several layers and mini-origins that al
 - Folk:
   - Dragon
     - Wings
+    - Increased food consumption
   - Lupine
     - Night vision (toggle-secondary)
     - Feed on kill
+    - Increased food consumption
   - Faun
     - Fast movement
     - High jumps (toggle-secondary)
     - Reduced fall damage
+    - Increased food consumption
   - Lizard
     - Invisibility (toggle-secondary)
     - Climbing
+    - Increased food consumption
   - Octopus
     - Extra block reach
     - Entity wallhack (toggle-secondary)
+    - Increased food consumption
 - Affinity:
   - Fire
     - Fireball (active-primary)

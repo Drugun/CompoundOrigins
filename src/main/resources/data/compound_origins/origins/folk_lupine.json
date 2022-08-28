@@ -2,12 +2,13 @@
     "powers": [
         "compound_origins:secondary_toggle",
         "compound_origins:night_vision",
-        "compound_origins:feeding"
+        "compound_origins:feeding",
+        "compound_origins:increased_hunger_folk"
     ],
     "icon": {
         "item": "minecraft:bone"
     },
     "order": 4,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

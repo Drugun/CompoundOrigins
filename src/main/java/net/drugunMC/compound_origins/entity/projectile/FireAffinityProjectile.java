@@ -39,7 +39,7 @@ public class FireAffinityProjectile extends ThrownItemEntity {
         if (!this.world.isClient) {
             Entity entity = entityHitResult.getEntity();
             Entity entity2 = this.getOwner();
-            entity.damage(DamageSource.thrownProjectile(this, entity2), 3.0F);
+            entity.damage(DamageSource.thrownProjectile(this, entity2), 2.0F);
             if (entity2 instanceof LivingEntity) {
                 this.applyDamageEffects((LivingEntity)entity2, entity);
             }

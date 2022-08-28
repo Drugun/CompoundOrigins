@@ -1,11 +1,12 @@
 {
     "powers": [
-        "compound_origins:wings"
+        "compound_origins:wings",
+        "compound_origins:increased_hunger_folk"
     ],
     "icon": {
         "item": "icarus:black_dragon_wings"
     },
     "order": 1,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

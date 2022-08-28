@@ -2,12 +2,13 @@
     "powers": [
         "compound_origins:secondary_toggle",
         "compound_origins:telepath",
-        "compound_origins:extra_block_reach"
+        "compound_origins:extra_block_reach",
+        "compound_origins:increased_hunger_folk"
     ],
     "icon": {
         "item": "minecraft:nautilus_shell"
     },
     "order": 5,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

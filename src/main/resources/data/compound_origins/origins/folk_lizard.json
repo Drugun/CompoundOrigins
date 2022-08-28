@@ -2,12 +2,13 @@
     "powers": [
         "compound_origins:secondary_toggle",
         "compound_origins:invisibility",
-        "compound_origins:climbing"
+        "compound_origins:climbing",
+        "compound_origins:increased_hunger_folk"
     ],
     "icon": {
         "item": "minecraft:ender_eye"
     },
     "order": 3,
-    "impact": 1,
+    "impact": 2,
     "loading_priority": 1
 }

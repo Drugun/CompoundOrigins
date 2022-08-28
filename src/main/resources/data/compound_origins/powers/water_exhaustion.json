@@ -1,6 +1,6 @@
 {
     "type": "origins:exhaust",
-    "interval": 50,
+    "interval": 40,
     "exhaustion": 1.0,
     "condition": {
         "type": "origins:fluid_height",
