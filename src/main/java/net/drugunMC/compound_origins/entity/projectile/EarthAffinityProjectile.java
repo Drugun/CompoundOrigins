@@ -8,6 +8,7 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
@@ -48,6 +49,9 @@ public class EarthAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
+        for(int i = 0; i < 5; i++){
+            this.world.addParticle(ParticleTypes.POOF, this.getX()+(this.random.nextDouble()), this.getY()+(this.random.nextDouble()), this.getZ()+(this.random.nextDouble()), this.random.nextDouble()*0.1, this.random.nextDouble()*0.1, this.random.nextDouble()*0.1);
+        }
         this.discard();
 
     }

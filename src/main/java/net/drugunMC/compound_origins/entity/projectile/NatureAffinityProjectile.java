@@ -9,6 +9,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Box;
@@ -43,6 +44,9 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
+        for(int i = 0; i < 30; i++){
+            this.world.addParticle(ParticleTypes.ITEM_SLIME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
+        }
         if (!this.world.isClient) {
             Entity owner = this.getEffectCause();
             Box box = this.getBoundingBox().expand(1.5, 1.5, 1.5);
@@ -64,7 +68,6 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
                 }
 
             }
-            this.world.syncWorldEvent(2007, this.getBlockPos(), 0x09ee09);
             this.discard();
         }
 
