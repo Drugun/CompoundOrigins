@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:cake"
+    },
+    "X": {
+      "item": "minecraft:emerald_block"
+    },
+    "Y": {
+      "item": "minecraft:gold_block"
+    },
+    "O": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "XOX",
+    "O#O",
+    "YOY"
+  ],
+  "result": {
+    "count": 1,
+    "item": "origins:orb_of_origin"
+  }
+}
