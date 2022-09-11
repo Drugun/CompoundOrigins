@@ -3,7 +3,8 @@
         "compound_origins:water_shot",
         "compound_origins:waterbreathing",
         "origins:aqua_affinity",
-        "compound_origins:overheating"
+        "compound_origins:overheating",
+        "compound_origins:no_fire_extinguishing"
     ],
     "icon": {
         "item": "minecraft:tropical_fish"

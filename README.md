@@ -34,7 +34,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Icy projectile (active-primary)
     - Water breathing
     - No slowed block breaking underwater
-    - DoT in sunlight when in hot biomes and not in water
+    - Damage in sunlight when in hot biomes and not in water
+    - Cannot extinguish fire by punching it
   - Earth
     - Stone avalanche (active-primary)
     - Pickaxe-like hand digging
@@ -42,7 +43,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Nature
     - Multi-debuff poison projectile (active-primary)
     - Free bonemealing
-    - Increased fire damage
+    - Longer wither status effect
+    - Severe exhaustion when mining underground
   - Lightning
     - Targeted lightning (active-primary)
     - Lightning immunity

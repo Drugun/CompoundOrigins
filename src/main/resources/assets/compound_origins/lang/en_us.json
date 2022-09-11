@@ -3,6 +3,7 @@
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
   "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
+  "compound_origins.gui.badge.overworld": "Only applies in the Overworld.",
 
 
 
@@ -240,9 +241,16 @@
   "power.compound_origins.waterbreathing.description": "You can breathe in water.",
 
   "power.compound_origins.wings.name": "Wings",
-  "power.compound_origins.wings.description": "You have wings, making you capable of gliding and active flight."
+  "power.compound_origins.wings.description": "You have wings, making you capable of gliding and active flight.",
 
+  "power.compound_origins.longer_wither.name": "Lifeblood",
+  "power.compound_origins.longer_wither.description": "Wither status effects last twice as long.",
 
+  "power.compound_origins.mining_exhaustion.name": "Claustrophobic",
+  "power.compound_origins.mining_exhaustion.description": "Exhaustion from breaking blocks is increased 50x when not on the surface.",
+
+  "power.compound_origins.no_fire_extinguishing.name": "Evaporating",
+  "power.compound_origins.no_fire_extinguishing.description": "You cannot extinguish fire by punching it."
 
 
 }

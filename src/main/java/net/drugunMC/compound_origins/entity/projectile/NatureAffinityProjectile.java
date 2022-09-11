@@ -2,8 +2,10 @@ package net.drugunMC.compound_origins.entity.projectile;
 
 import net.drugunMC.compound_origins.CompoundOrigins;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityGroup;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
@@ -55,6 +57,9 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
                 for (LivingEntity e: list) {
                     e.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 4, 1), owner);
                     e.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 20 * 10, 2), owner);
+                    if (e.getGroup() == EntityGroup.UNDEAD){
+                        e.damage(DamageSource.thrownProjectile(this, owner), 10);
+                    }
                 }
 
             }
@@ -62,9 +67,12 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
             List<LivingEntity> list2 = this.world.getNonSpectatingEntities(LivingEntity.class, box2);
             if (!list2.isEmpty()) {
                 for (LivingEntity e: list2) {
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 4, 0), owner);
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 4, 0), owner);
+                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 6, 0), owner);
+                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 6, 1), owner);
                     e.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 20 * 7, 1), owner);
+                    if (e.getGroup() == EntityGroup.UNDEAD){
+                        e.damage(DamageSource.thrownProjectile(this, owner), 5);
+                    }
                 }
 
             }

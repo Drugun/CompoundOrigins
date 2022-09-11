@@ -1,0 +1,7 @@
+{
+    "type": "origins:prevent_block_selection",
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:fire"
+    }
+}
