@@ -16,11 +16,11 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - High jumps (toggle-secondary)
     - Reduced fall damage
     - Increased food consumption
-  - Lizard
+  - Naga
     - Invisibility (toggle-secondary)
     - Climbing
     - Increased food consumption
-  - Octopus
+  - Benthic
     - Extra block reach
     - Entity wallhack (toggle-secondary)
     - Increased food consumption
@@ -38,11 +38,12 @@ An Origins mod expansion that introduces several layers and mini-origins that al
     - Cannot extinguish fire by punching it
   - Earth
     - Stone avalanche (active-primary)
-    - Pickaxe-like hand digging
+    - Pickaxe-like and shovel-like hand digging
     - Longer negative status effects
   - Nature
     - Multi-debuff poison projectile (active-primary)
     - Free bonemealing
+    - Faster breaking of wood and plant blocks
     - Longer wither status effect
     - Severe exhaustion when mining underground
   - Lightning
@@ -68,6 +69,8 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Reduced regeneration
   - Cannot wear helmet or boots
   - Reduced attack speed
+
+Orb of origins was given a recipe, making it possible to switch origins.
 
 ## Required mods
 - Origins : https://modrinth.com/mod/origins

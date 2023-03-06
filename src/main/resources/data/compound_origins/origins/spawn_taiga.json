@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:spawnpower_taiga"
+    ],
+    "icon": {
+        "item": "minecraft:podzol"
+    },
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

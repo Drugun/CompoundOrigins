@@ -1,3 +1,10 @@
 {
-    "type": "origins:simple"
+    "type": "origins:simple",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "compound_origins.gui.badge.fly"
+        }
+    ]
 }

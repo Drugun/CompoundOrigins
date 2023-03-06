@@ -2,7 +2,7 @@
     "type": "origins:modify_break_speed",
     "block_condition": {
         "type": "origins:in_tag",
-        "tag": "minecraft:mineable/pickaxe"
+        "tag": "minecraft:mineable/shovel"
     },
     "condition": {
         "type": "origins:equipped_item",
@@ -13,6 +13,6 @@
     },
     "modifier": {
         "operation": "multiply_base_multiplicative",
-        "value": 12.0
+        "value": 6.0
     }
 }

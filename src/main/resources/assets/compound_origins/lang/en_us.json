@@ -2,6 +2,7 @@
 
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
+  "compound_origins.gui.badge.fly": "Upon spawning, equip the wings in the wing slot. Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
   "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
   "compound_origins.gui.badge.overworld": "Only applies in the Overworld.",
 
@@ -34,10 +35,10 @@
   "origin.compound_origins.folk_lupine.name": "Lupine",
   "origin.compound_origins.folk_lupine.description": "You are a wolf-like night-time hunter.",
 
-  "origin.compound_origins.folk_lizard.name": "Lizard",
-  "origin.compound_origins.folk_lizard.description": "You are an elusive lizard.",
+  "origin.compound_origins.folk_lizard.name": "Naga",
+  "origin.compound_origins.folk_lizard.description": "You are an elusive serpentine creature.",
 
-  "origin.compound_origins.folk_octopus.name": "Octopus",
+  "origin.compound_origins.folk_octopus.name": "Benthic",
   "origin.compound_origins.folk_octopus.description": "You are an enigmatic creature equipped with strange abilities.",
 
 
@@ -184,7 +185,7 @@
   "power.compound_origins.more_fire_damage.description": "You suffer more damage from fire and lava.",
 
   "power.compound_origins.nature_shot.name": "Poison spit",
-  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several debuffs. 10 second cooldown.",
+  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several negative effects. 10 second cooldown.",
 
   "power.compound_origins.naturomancer_bonemeal.name": "Naturomancer",
   "power.compound_origins.naturomancer_bonemeal.description": "You can fertilise plants without bonemeal.",
@@ -244,13 +245,19 @@
   "power.compound_origins.wings.description": "You have wings, making you capable of gliding and active flight.",
 
   "power.compound_origins.longer_wither.name": "Lifeblood",
-  "power.compound_origins.longer_wither.description": "Wither status effects last twice as long.",
+  "power.compound_origins.longer_wither.description": "Wither status effect lasts twice as long.",
 
   "power.compound_origins.mining_exhaustion.name": "Claustrophobic",
   "power.compound_origins.mining_exhaustion.description": "Exhaustion from breaking blocks is increased 50x when not on the surface.",
 
   "power.compound_origins.no_fire_extinguishing.name": "Evaporating",
-  "power.compound_origins.no_fire_extinguishing.description": "You cannot extinguish fire by punching it."
+  "power.compound_origins.no_fire_extinguishing.description": "You cannot extinguish fire by punching it.",
+
+  "power.compound_origins.gravel_digger.name": "Excavator",
+  "power.compound_origins.gravel_digger.description": "You can dig sand, gravel and other similar blocks with your hands quickly, as if using a shovel.",
+
+  "power.compound_origins.grovetender.name": "Grovetender",
+  "power.compound_origins.grovetender.description": "You can chop wood and cut plants quickly with your hands, as if using an axe or hoe."
 
 
 }

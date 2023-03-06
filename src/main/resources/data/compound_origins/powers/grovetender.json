@@ -1,8 +1,17 @@
 {
     "type": "origins:modify_break_speed",
     "block_condition": {
-        "type": "origins:in_tag",
-        "tag": "minecraft:mineable/pickaxe"
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:mineable/axe"
+            },
+            {
+                "type": "origins:in_tag",
+                "tag": "minecraft:mineable/hoe"
+            }
+        ]
     },
     "condition": {
         "type": "origins:equipped_item",
@@ -13,6 +22,6 @@
     },
     "modifier": {
         "operation": "multiply_base_multiplicative",
-        "value": 12.0
+        "value": 7.0
     }
 }
