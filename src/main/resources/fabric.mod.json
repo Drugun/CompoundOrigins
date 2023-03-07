@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Compound Origins",
-  "description": "Origins expansion",
+  "description": "Origins addon - make your own origin.",
   "authors": [
     "Drugun"
   ],
@@ -13,13 +13,16 @@
     "sources": "https://github.com/Drugun/CompoundOrigins"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/compound_origins/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.drugunMC.compound_origins.CompoundOrigins"
+    ],
+    "client": [
+      "net.drugunMC.compound_origins.CompoundOriginsClient"
     ]
   },
   "mixins": [

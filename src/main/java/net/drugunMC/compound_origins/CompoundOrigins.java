@@ -5,9 +5,7 @@ import net.drugunMC.compound_origins.entity.projectile.FireAffinityProjectile;
 import net.drugunMC.compound_origins.entity.projectile.NatureAffinityProjectile;
 import net.drugunMC.compound_origins.entity.projectile.WaterAffinityProjectile;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
-import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
@@ -49,10 +47,7 @@ public class CompoundOrigins implements ModInitializer {
 		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_nature_projectile"), AFFINITY_NATURE_PROJECTILE);
 		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_water_projectile"), AFFINITY_WATER_PROJECTILE);
 
-		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_FIRE_PROJECTILE, FlyingItemEntityRenderer::new);
-		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_EARTH_PROJECTILE, FlyingItemEntityRenderer::new);
-		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_NATURE_PROJECTILE, FlyingItemEntityRenderer::new);
-		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_WATER_PROJECTILE, FlyingItemEntityRenderer::new);
+
 
 
 
@@ -61,4 +56,9 @@ public class CompoundOrigins implements ModInitializer {
 
 
 	}
+
+
+
+
+
 }

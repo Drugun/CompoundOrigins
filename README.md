@@ -1,6 +1,10 @@
-# Compound Origins for Minecraft
+# Compound Origins
 
-An Origins mod expansion that introduces several layers and mini-origins that allow players to craft their own origin. The vanilla origin layer is disabled.
+Compound origins is an addon for the Origins mod that adds a multitude of mini-origins across several layers. Players can choose one mini-origin from each layer to assemble their own custom origin.
+
+
+These origins were made with Origins: Classes in mind and it is recommended to use that mod. This mod also disables the vanilla origin layer.
+
 
 ## Contents
 - Folk:
@@ -67,14 +71,16 @@ An Origins mod expansion that introduces several layers and mini-origins that al
   - Reduced armour
   - Increased food consumption
   - Reduced regeneration
-  - Cannot wear helmet or boots
   - Reduced attack speed
 
+
 Orb of origins was given a recipe, making it possible to switch origins.
+
 
 ## Required mods
 - Origins : https://modrinth.com/mod/origins
 - Icarus : https://modrinth.com/mod/icarus
+
 
 ## Recommended mods
 - Origins: Classes : https://modrinth.com/mod/origins-classes

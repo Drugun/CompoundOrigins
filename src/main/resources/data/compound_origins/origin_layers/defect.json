@@ -7,7 +7,6 @@
         "compound_origins:defect_attack_speed",
         "compound_origins:defect_carnivore",
         "compound_origins:defect_healing",
-        "compound_origins:defect_restricted_armour",
         "compound_origins:defect_herbivore"
     ],
     "enabled": true,
