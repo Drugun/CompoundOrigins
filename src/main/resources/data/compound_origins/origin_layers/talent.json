@@ -1,14 +1,23 @@
 {
     "order": 7,
     "origins": [
-        "compound_origins:talent_health",
-        "compound_origins:talent_hunger",
-        "compound_origins:talent_armour",
-        "compound_origins:talent_attack_speed",
-        "compound_origins:talent_healing",
-        "compound_origins:talent_knockback",
-        "compound_origins:talent_regen",
-        "compound_origins:talent_superstomach"
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:custom_base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "compound_origins:talent_health",
+                "compound_origins:talent_hunger",
+                "compound_origins:talent_armour",
+                "compound_origins:talent_attack_speed",
+                "compound_origins:talent_healing",
+                "compound_origins:talent_knockback",
+                "compound_origins:talent_regen",
+                "compound_origins:talent_superstomach"
+            ]
+        }
     ],
     "enabled": true,
     "loading_priority": 1,

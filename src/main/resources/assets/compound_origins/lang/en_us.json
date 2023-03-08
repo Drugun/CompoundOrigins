@@ -15,6 +15,8 @@
   "layer.compound_origins.defect.name": "Defect",
 
 
+  "origin.compound_origins.custom_base.name": "Custom Origin",
+  "origin.compound_origins.custom_base.description": "Assemble a custom origin from the Compound origins addon.",
 
   "origin.compound_origins.folk_dragon.name": "Dragon",
   "origin.compound_origins.folk_dragon.description": "You are a dragon with innate flight.",
@@ -258,6 +260,8 @@
 
   "power.compound_origins.grovetender.name": "Grovetender",
   "power.compound_origins.grovetender.description": "You can chop wood and cut plants quickly with your hands, as if using an axe or hoe."
+
+
 
 
 }

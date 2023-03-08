@@ -1,11 +1,20 @@
 {
     "order": 5,
     "origins": [
-        "compound_origins:affinity_earth",
-        "compound_origins:affinity_nature",
-        "compound_origins:affinity_fire",
-        "compound_origins:affinity_water",
-        "compound_origins:affinity_lightning"
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:custom_base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "compound_origins:affinity_earth",
+                "compound_origins:affinity_nature",
+                "compound_origins:affinity_fire",
+                "compound_origins:affinity_water",
+                "compound_origins:affinity_lightning"
+            ]
+        }
     ],
     "enabled": true,
     "loading_priority": 1,

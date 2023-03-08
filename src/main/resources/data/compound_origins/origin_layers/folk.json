@@ -1,11 +1,20 @@
 {
     "order": 3,
     "origins": [
-        "compound_origins:folk_dragon",
-        "compound_origins:folk_faun",
-        "compound_origins:folk_lizard",
-        "compound_origins:folk_octopus",
-        "compound_origins:folk_lupine"
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:custom_base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "compound_origins:folk_dragon",
+                "compound_origins:folk_faun",
+                "compound_origins:folk_lizard",
+                "compound_origins:folk_octopus",
+                "compound_origins:folk_lupine"
+            ]
+        }
     ],
     "enabled": true,
     "loading_priority": 1,

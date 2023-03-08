@@ -1,7 +1,11 @@
 {
-    "origins": [],
-    "enabled": false,
-    "replace": true,
+    "origins": [
+        "compound_origins:custom_base"
+    ],
+    "replace": false,
     "loading_priority": 200,
-    "hidden": true
+    "exclude_random": [
+        "compound_origins:custom_base"
+    ]
+
 }

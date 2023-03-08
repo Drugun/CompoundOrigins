@@ -1,9 +1,10 @@
 # Compound Origins
 
 Compound origins is an addon for the Origins mod that adds a multitude of mini-origins across several layers. Players can choose one mini-origin from each layer to assemble their own custom origin.
+To assemble your own origin, choose "Custom origin" from the list of origins (in the vanilla origin layer).
 
 
-These origins were made with Origins: Classes in mind and it is recommended to use that mod. This mod also disables the vanilla origin layer.
+This addon was designed to be used together with Origins: Classes, so it's highly recommended to use that addon as well.
 
 
 ## Contents
