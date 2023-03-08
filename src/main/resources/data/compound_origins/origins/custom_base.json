@@ -1,0 +1,10 @@
+{
+	"powers": [
+    ],
+    "icon": {
+        "item": "minecraft:writable_book"
+    },
+    "order": 1,
+    "impact": 0,
+    "loading_priority": 1
+}

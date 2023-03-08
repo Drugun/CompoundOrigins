@@ -1,8 +1,17 @@
 {
     "order": 12,
     "origins": [
-        "compound_origins:spawn_default",
-        "compound_origins:spawn_taiga"
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:custom_base",
+                "layer": "origins:origin"
+            },
+            "origins": [
+                "compound_origins:spawn_default",
+                "compound_origins:spawn_taiga"
+            ]
+        }
     ],
     "enabled": false,
     "loading_priority": 1,
