@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "origins:orb_of_origin"
-  }
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "compound_origins:readconfig",
+      "value": "addOrbRecipe"
+    }
+  ]
 }

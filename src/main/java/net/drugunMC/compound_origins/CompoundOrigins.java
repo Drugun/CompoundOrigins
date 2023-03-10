@@ -22,6 +22,8 @@ public class CompoundOrigins implements ModInitializer {
 
 	public static final String ModID = "compound_origins";
 
+	public static final CompoundOriginsConfig CONFIG = CompoundOriginsConfig.createAndLoad();
+
 
 	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
 	public static final EntityType<EarthAffinityProjectile> AFFINITY_EARTH_PROJECTILE = FabricEntityTypeBuilder.<EarthAffinityProjectile>create(SpawnGroup.MISC, EarthAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
@@ -30,6 +32,9 @@ public class CompoundOrigins implements ModInitializer {
 
 
 
+	static {
+		CompOriginsJsonCondProvider.init();
+	}
 
 
 

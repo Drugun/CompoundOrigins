@@ -3,7 +3,6 @@
 Compound origins is an addon for the Origins mod that adds a multitude of mini-origins across several layers. Players can choose one mini-origin from each layer to assemble their own custom origin.
 To assemble your own origin, choose "Custom origin" from the list of origins (in the vanilla origin layer).
 
-
 This addon was designed to be used together with Origins: Classes, so it's highly recommended to use that addon as well.
 
 
@@ -75,13 +74,15 @@ This addon was designed to be used together with Origins: Classes, so it's highl
   - Reduced attack speed
 
 
-Orb of origins was given a recipe, making it possible to switch origins.
+Orb of origins was given a recipe, making it possible to switch origins (can be disabled).
 
 
 ## Required mods
 - Origins : https://modrinth.com/mod/origins
 - Icarus : https://modrinth.com/mod/icarus
+- owo-lib : https://modrinth.com/mod/owo-lib
 
 
 ## Recommended mods
 - Origins: Classes : https://modrinth.com/mod/origins-classes
+

@@ -32,10 +32,10 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": ">=1.19.0 <=1.19.2",
     "java": ">=17",
-    "origins": "1.6.2",
-    "icarus": "1.13"
+    "origins": ">=1.6.2",
+    "icarus": ">=1.13"
   },
   "suggests": {
 

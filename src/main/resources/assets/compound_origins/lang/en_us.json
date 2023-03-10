@@ -1,5 +1,11 @@
 {
 
+  "text.config.compound-origins-config.title": "Compound origins configuration options",
+  "text.config.compound-origins-config.option.addOrbRecipe": "Enable Orb of origin crafting",
+
+
+
+
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
   "compound_origins.gui.badge.fly": "Upon spawning, equip the wings in the wing slot. Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
