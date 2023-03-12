@@ -12,7 +12,6 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
-import net.minecraft.world.explosion.Explosion;
 
 public class FireAffinityProjectile extends ThrownItemEntity {
     public FireAffinityProjectile(EntityType<? extends net.drugunMC.compound_origins.entity.projectile.FireAffinityProjectile> entityType, World world) {
@@ -54,7 +53,7 @@ public class FireAffinityProjectile extends ThrownItemEntity {
             this.world.addParticle(ParticleTypes.FLAME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
         }
         if (!this.world.isClient) {
-            this.world.createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, Explosion.DestructionType.NONE);
+            this.world.createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
             this.discard();
         }
 

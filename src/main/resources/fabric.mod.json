@@ -30,12 +30,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric": "*",
-    "minecraft": ">=1.19.0 <=1.19.2",
+    "fabricloader": ">=0.14.17",
+    "fabric": ">=0.75.1",
+    "minecraft": "1.19.3",
     "java": ">=17",
-    "origins": ">=1.6.2",
-    "icarus": ">=1.13"
+    "origins": ">=1.8.1",
+    "icarus": ">=1.15"
   },
   "suggests": {
 

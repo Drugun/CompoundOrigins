@@ -9,8 +9,9 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
 import net.minecraft.entity.EntityDimensions;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,10 +48,10 @@ public class CompoundOrigins implements ModInitializer {
 		//LOGGER.info("Hello Fabric world!");
 
 
-		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_fire_projectile"), AFFINITY_FIRE_PROJECTILE);
-		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_earth_projectile"), AFFINITY_EARTH_PROJECTILE);
-		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_nature_projectile"), AFFINITY_NATURE_PROJECTILE);
-		Registry.register(Registry.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_water_projectile"), AFFINITY_WATER_PROJECTILE);
+		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_fire_projectile"), AFFINITY_FIRE_PROJECTILE);
+		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_earth_projectile"), AFFINITY_EARTH_PROJECTILE);
+		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_nature_projectile"), AFFINITY_NATURE_PROJECTILE);
+		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_water_projectile"), AFFINITY_WATER_PROJECTILE);
 
 
 
