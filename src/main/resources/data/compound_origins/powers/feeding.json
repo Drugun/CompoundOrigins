@@ -3,6 +3,6 @@
     "entity_action": {
         "type": "origins:feed",
         "food": 2,
-        "saturation": 0.5
+        "saturation": 1
     }
 }

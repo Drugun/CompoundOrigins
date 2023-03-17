@@ -6,6 +6,6 @@
     "modifier": {
         "name": "Reduced fall damage",
         "operation": "addition",
-        "value": -4.0
+        "value": -6.0
     }
 }

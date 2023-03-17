@@ -3,55 +3,59 @@
 Compound origins is an addon for the Origins mod that adds a multitude of mini-origins across several layers. Players can choose one mini-origin from each layer to assemble their own custom origin.
 To assemble your own origin, choose "Custom origin" from the list of origins (in the vanilla origin layer).
 
-This addon was designed to be used together with Origins: Classes, so it's highly recommended to use that addon as well.
+The origins are designed such that ones in the same category are similar in strength and utility. Using a custom origin won't make the game noticeably easier - the lack of negatives in folk options is counteracted by defects outweighing talents. 
+This addon was designed to be used together with Origins Classes, so it's highly recommended to use that addon as well.
 
 
 ## Contents
+
+Players can choose one origin in each of the 4 categories (Folk, Affinity, Talent, Defect).
+
 - Folk:
   - Dragon
-    - Wings
+    - Wings (like elytra, but better)
     - Increased food consumption
   - Lupine
-    - Night vision (toggle-secondary)
+    - Night vision (toggle)
     - Feed on kill
     - Increased food consumption
   - Faun
     - Fast movement
-    - High jumps (toggle-secondary)
+    - High jumps (toggle)
     - Reduced fall damage
     - Increased food consumption
   - Naga
-    - Invisibility (toggle-secondary)
+    - Invisibility (toggle)
     - Climbing
     - Increased food consumption
   - Benthic
     - Extra block reach
-    - Entity wallhack (toggle-secondary)
+    - See nearby mobs and players through walls (toggle)
     - Increased food consumption
 - Affinity:
   - Fire
-    - Fireball (active-primary)
+    - Fireball (active ability)
     - Fire/lava immunity
     - Freeze in cold water
     - Freeze in dark in cold biomes
   - Water
-    - Icy projectile (active-primary)
+    - Icy projectile (active ability)
     - Water breathing
-    - No slowed block breaking underwater
-    - Damage in sunlight when in hot biomes and not in water
+    - Normal block digging underwater
+    - Damage in sunlight when outside water in hot biomes
     - Cannot extinguish fire by punching it
   - Earth
-    - Stone avalanche (active-primary)
+    - Stone projectiles (active ability)
     - Pickaxe-like and shovel-like hand digging
     - Longer negative status effects
   - Nature
-    - Multi-debuff poison projectile (active-primary)
-    - Free bonemealing
+    - Poison projectile (active ability)
+    - Can fertilise crops for free
     - Faster breaking of wood and plant blocks
     - Longer wither status effect
-    - Severe exhaustion when mining underground
+    - Increased exhaustion when mining underground
   - Lightning
-    - Targeted lightning (active-primary)
+    - Targeted lightning (active ability)
     - Lightning immunity
     - Melee retaliation
     - Slowed and exhausted in water
@@ -60,7 +64,7 @@ This addon was designed to be used together with Origins: Classes, so it's highl
   - Increased armour
   - Decreased food consumption
   - Increased regeneration
-  - Passive regen
+  - Slow passive regen
   - Increased attack speed
   - Reduced knockback
   - Can eat grass and leaves
