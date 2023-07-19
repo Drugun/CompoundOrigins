@@ -44,12 +44,12 @@ public class WaterAffinityProjectile extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         for(int i = 0; i < 30; i++){
-            this.world.addParticle(ParticleTypes.SNOWFLAKE, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
+            this.getWorld().addParticle(ParticleTypes.SNOWFLAKE, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
         }
-        if (!this.world.isClient) {
+        if (!this.getWorld().isClient) {
             Entity owner = this.getEffectCause();
             Box box = this.getBoundingBox().expand(2.0, 1.5, 2.0);
-            List<LivingEntity> list = this.world.getNonSpectatingEntities(LivingEntity.class, box);
+            List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
             if (!list.isEmpty()) {
                 for (LivingEntity e: list) {
                     e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 7, 4), owner);

@@ -36,10 +36,10 @@ public class FireAffinityProjectile extends ThrownItemEntity {
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
         super.onEntityHit(entityHitResult);
-        if (!this.world.isClient) {
+        if (!this.getWorld().isClient) {
             Entity entity = entityHitResult.getEntity();
             Entity entity2 = this.getOwner();
-            entity.damage(DamageSource.thrownProjectile(this, entity2), 2.0F);
+            entity.damage(getWorld().getDamageSources().thrown(this, entity2), 2.0F);
             if (entity2 instanceof LivingEntity) {
                 this.applyDamageEffects((LivingEntity)entity2, entity);
             }
@@ -50,10 +50,10 @@ public class FireAffinityProjectile extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         for(int i = 0; i < 30; i++){
-            this.world.addParticle(ParticleTypes.FLAME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
+            this.getWorld().addParticle(ParticleTypes.FLAME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
         }
-        if (!this.world.isClient) {
-            this.world.createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
+        if (!this.getWorld().isClient) {
+            this.getWorld().createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
             this.discard();
         }
 
