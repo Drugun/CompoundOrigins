@@ -17,6 +17,18 @@ repositories {
 	}
 
 	maven {
+		name = 'Ladysnake Mods'
+		url = 'https://maven.ladysnake.org/releases'
+		content {
+			includeGroup 'io.github.ladysnake'
+			includeGroupByRegex 'io\\.github\\.onyxstudios.*'
+		}
+	}
+	maven {
+		name = 'Ladysnake Mods'
+		url = 'https://maven.ladysnake.org/releases'
+	}
+	maven {
 		name = "Ladysnake Libs"
 		url = 'https://ladysnake.jfrog.io/artifactory/mods'
 	}
@@ -33,6 +45,10 @@ repositories {
 		}
 	}
 	maven {
+		name = "Pug's Maven"
+		url = 'https://maven.merchantpug.net/releases/'
+	}
+	maven {
 		url "https://jitpack.io"
 	}
 	maven {
@@ -45,6 +61,18 @@ repositories {
 	maven { url 'https://maven.wispforest.io' }
 
 	maven { url 'https://maven.terraformersmc.com/releases/com/terraformersmc/modmenu/' }
+
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		filter {
+			includeGroup "maven.modrinth"
+		}
+	}
 
 
 
@@ -65,19 +93,31 @@ dependencies {
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 
 
-	//modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 
 	//implementation fileTree('libs')
 
-	//modImplementation "com.github.eggohito:origins-fabric:${project.origins_version}"
-	//modImplementation "com.github.MerchantPug:apugli:${project.apugli_version}"
-	//include "com.github.MerchantPug:apugli:${project.apugli_version}"
 
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 	include "io.wispforest:owo-sentinel:${project.owo_version}"
-	//modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:5.2.1"
+
+	modImplementation "io.github.ladysnake:PlayerAbilityLib:${project.pal_version}"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cc_version}"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cc_version}"
+
+	modImplementation "maven.modrinth:icarus:${project.icarus_version}"
+	modImplementation "maven.modrinth:origins:${project.origins_version}"
+
+	//modImplementation "com.github.eggohito:eggolib:${project.eggolib_version}"
+	//include "com.github.eggohito:eggolib:${project.eggolib_version}"
+
+	modImplementation(include("net.merchantpug:Apugli:${project.apugli_version}-fabric"))
+	//modImplementation "maven.modrinth:apugli:${project.apugli_version}"
+	//include "maven.modrinth:apugli:${project.apugli_version}"
+
+	modImplementation "com.github.apace100:apoli:v${project.apoli_version}"
+
 
 
 }
