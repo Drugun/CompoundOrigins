@@ -1,0 +1,16 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "compound_origins:earth_resource",
+        "change": -3
+    },
+    "condition": {
+        "type": "origins:resource",
+        "resource": "compound_origins:earth_resource",
+        "comparison": "<",
+        "compare_to": 150
+    },
+    "interval": 20
+}

@@ -1,20 +1,33 @@
 {
-  "type": "origins:fire_projectile",
-  "cooldown": 300,
-  "count": 15,
-  "interval": 3,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 6
-  },
-  "entity_type": "compound_origins:affinity_earth_projectile",
-  "sound": "minecraft:entity.ender_dragon.shoot",
-  "speed": 0.7,
-  "divergence": 5.00,
+  "type": "origins:active_self",
   "key": {
     "key": "key.origins.primary_active",
-    "continuous": false
+    "continuous": true
+  },
+  "cooldown": 5,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "compound_origins:earth_resource",
+    "comparison": ">=",
+    "compare_to": 25
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "compound_origins:earth_resource",
+        "change": -25
+      },
+      {
+        "type": "apugli:fire_projectile",
+        "entity_type": "compound_origins:affinity_earth_projectile",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "speed": 0.7,
+        "count": 1,
+        "divergence": 5.0
+      }
+    ]
   },
   "badges": [
     {

@@ -92,6 +92,21 @@
   "origin.compound_origins.talent_superstomach.name": "Superstomach",
   "origin.compound_origins.talent_superstomach.description": "You can eat grass and leaves, although you will be temporarily slowed.",
 
+  "origin.compound_origins.talent_cooldown_fire.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_fire.description": "Your affinity-related active abilities recharge faster.",
+
+  "origin.compound_origins.talent_cooldown_earth.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_earth.description": "Your affinity-related active abilities recharge faster.",
+
+  "origin.compound_origins.talent_cooldown_water.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_water.description": "Your affinity-related active abilities recharge faster.",
+
+  "origin.compound_origins.talent_cooldown_lightning.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_lightning.description": "Your affinity-related active abilities recharge faster.",
+
+  "origin.compound_origins.talent_cooldown_nature.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_nature.description": "Your affinity-related active abilities recharge faster.",
+
 
 
   "origin.compound_origins.defect_armour.name": "Fragile",
@@ -118,6 +133,22 @@
   "origin.compound_origins.defect_herbivore.name": "Herbivore",
   "origin.compound_origins.defect_herbivore.description": "You cannot eat meat.",
 
+  "origin.compound_origins.defect_cooldown_fire.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_fire.description": "Your affinity-related active abilities recharge slower.",
+
+  "origin.compound_origins.defect_cooldown_earth.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_earth.description": "Your affinity-related active abilities recharge slower.",
+
+  "origin.compound_origins.defect_cooldown_water.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_water.description": "Your affinity-related active abilities recharge slower.",
+
+  "origin.compound_origins.defect_cooldown_lightning.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_lightning.description": "Your affinity-related active abilities recharge slower.",
+
+  "origin.compound_origins.defect_cooldown_nature.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_nature.description": "Your affinity-related active abilities recharge slower.",
+
+
 
 
   "power.compound_origins.feeding.name": "Feeding",
@@ -136,7 +167,7 @@
   "power.compound_origins.decreased_hunger.description": "You get hungry 30% slower.",
 
   "power.compound_origins.earth_shot.name": "Rockfall",
-  "power.compound_origins.earth_shot.description": "Unleash a barrage of 15 rocks that deal 2 damage each. 15 second cooldown.",
+  "power.compound_origins.earth_shot.description": "Unleash a barrage of rocks.",
 
   "power.compound_origins.extra_block_reach.name": "Telekinesis",
   "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
@@ -148,7 +179,7 @@
   "power.compound_origins.fire_lava_immunity.description": "You take no damage from fire and lava.",
 
   "power.compound_origins.fire_shot.name": "Fireball",
-  "power.compound_origins.fire_shot.description": "Spit out an incendiary glob. 15 second cooldown.",
+  "power.compound_origins.fire_shot.description": "Spit out an incendiary glob.",
 
   "power.compound_origins.herbivore.name": "Herbivore",
   "power.compound_origins.herbivore.description": "You cannot eat meat.",
@@ -181,7 +212,7 @@
   "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",
 
   "power.compound_origins.lightning_strike.name": "Lightning strike",
-  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks. 15 second cooldown.",
+  "power.compound_origins.lightning_strike.description": "You can call down lightning, causing instant damage and igniting blocks.",
 
   "power.compound_origins.longer_negative_effects.name": "Slow metabolism",
   "power.compound_origins.longer_negative_effects.description": "Negative status effects last 50% longer on you.",
@@ -193,7 +224,7 @@
   "power.compound_origins.more_fire_damage.description": "You suffer more damage from fire and lava.",
 
   "power.compound_origins.nature_shot.name": "Poison spit",
-  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several negative effects. 10 second cooldown.",
+  "power.compound_origins.nature_shot.description": "Spit out a glob of toxic goo that inflicts several negative effects.",
 
   "power.compound_origins.naturomancer_bonemeal.name": "Naturomancer",
   "power.compound_origins.naturomancer_bonemeal.description": "You can fertilise plants without bonemeal.",
@@ -244,7 +275,7 @@
   "power.compound_origins.water_exhaustion.description": "Being in water makes you hungry.",
 
   "power.compound_origins.water_shot.name": "Ice burst",
-  "power.compound_origins.water_shot.description": "Throw a blob of icy water to immobilise foes. 10 second cooldown.",
+  "power.compound_origins.water_shot.description": "Throw a blob of icy water to immobilise foes.",
 
   "power.compound_origins.waterbreathing.name": "Water breathing",
   "power.compound_origins.waterbreathing.description": "You can breathe in water.",

@@ -1,8 +1,8 @@
 {
 	"powers": [
         "compound_origins:nature_shot",
-        "compound_origins:naturomancer_resource",
-        "compound_origins:naturomancer_regen",
+        "compound_origins:nature_resource",
+        "compound_origins:nature_resource_regen",
         "compound_origins:naturomancer_bonemeal",
         "compound_origins:grovetender",
         "compound_origins:longer_wither",

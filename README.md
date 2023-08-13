@@ -68,6 +68,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Increased attack speed
   - Reduced knockback
   - Can eat grass and leaves
+  - Faster affinity ability recharge
 - Defect:
   - Carnivore
   - Herbivore
@@ -76,6 +77,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Increased food consumption
   - Reduced regeneration
   - Reduced attack speed
+  - Slower affinity ability recharge
 
 
 Orb of origins was given a recipe, making it possible to switch origins (can be disabled).
@@ -89,4 +91,8 @@ Orb of origins was given a recipe, making it possible to switch origins (can be 
 
 ## Recommended mods
 - Origins: Classes : https://modrinth.com/mod/origins-classes
+
+
+## Notes
+- Remember to configure the wings in the Icarus mod configuration. Check the image gallery for recommended settings.
 

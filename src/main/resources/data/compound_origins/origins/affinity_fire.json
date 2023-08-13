@@ -3,7 +3,9 @@
         "compound_origins:fire_shot",
         "compound_origins:fire_lava_immunity",
         "compound_origins:cold_dark_freezing",
-        "compound_origins:cold_water_freezing"
+        "compound_origins:cold_water_freezing",
+        "compound_origins:fire_resource",
+        "compound_origins:fire_resource_regen"
     ],
     "icon": {
         "item": "minecraft:blaze_powder"

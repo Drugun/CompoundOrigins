@@ -118,6 +118,7 @@ dependencies {
 
 	modImplementation "com.github.apace100:apoli:v${project.apoli_version}"
 
+	modImplementation "maven.modrinth:trinkets:${project.trinkets_version}"
 
 
 }

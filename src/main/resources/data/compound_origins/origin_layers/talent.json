@@ -17,6 +17,56 @@
                 "compound_origins:talent_regen",
                 "compound_origins:talent_superstomach"
             ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_fire",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:talent_cooldown_fire"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_earth",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:talent_cooldown_earth"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_water",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:talent_cooldown_water"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_nature",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:talent_cooldown_nature"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_lightning",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:talent_cooldown_lightning"
+            ]
         }
     ],
     "enabled": true,

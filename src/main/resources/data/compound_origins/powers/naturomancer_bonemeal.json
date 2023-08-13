@@ -9,12 +9,12 @@
     },
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "compound_origins:naturomancer_resource",
+        "resource": "compound_origins:nature_resource",
         "change": -10
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "compound_origins:naturomancer_resource",
+        "resource": "compound_origins:nature_resource",
         "comparison": ">=",
         "compare_to": 20
     },

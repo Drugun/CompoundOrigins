@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:lightning_less_resource_regen"
+    ],
+    "icon": {
+        "item": "minecraft:clock"
+    },
+    "order": 10,
+    "impact": 1,
+    "loading_priority": 1
+}

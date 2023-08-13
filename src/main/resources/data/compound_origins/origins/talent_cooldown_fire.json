@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:fire_extra_resource_regen"
+    ],
+    "icon": {
+        "item": "minecraft:sugar"
+    },
+    "order": 10,
+    "impact": 1,
+    "loading_priority": 1
+}

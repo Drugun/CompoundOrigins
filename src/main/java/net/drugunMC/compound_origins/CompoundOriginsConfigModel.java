@@ -13,6 +13,9 @@ public class CompoundOriginsConfigModel {
     @RestartRequired
     public boolean addOrbRecipe = false;
 
+    //@RestartRequired
+    //public boolean overrideIcarusConfig = true;
+
 
 
 }

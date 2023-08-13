@@ -3,8 +3,8 @@
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "compound_origins:naturomancer_resource",
-        "change": 1
+        "resource": "compound_origins:earth_resource",
+        "change": 10
     },
     "interval": 20
 }
