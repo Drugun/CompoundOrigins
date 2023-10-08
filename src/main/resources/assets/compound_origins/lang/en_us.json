@@ -15,6 +15,7 @@
 
 
   "layer.compound_origins.affinity.name": "Affinity",
+  "layer.compound_origins.affinity_power.name": "Affinity Power",
   "layer.compound_origins.folk.name": "Folk",
   "layer.compound_origins.folk_variety.name": "Folk variety",
   "layer.compound_origins.talent.name": "Talent",
@@ -47,7 +48,7 @@
   "origin.compound_origins.folk_lizard.description": "You are an elusive serpentine creature.",
 
   "origin.compound_origins.folk_octopus.name": "Benthic",
-  "origin.compound_origins.folk_octopus.description": "You are an enigmatic creature equipped with strange abilities.",
+  "origin.compound_origins.folk_octopus.description": "You are a soft-bodied creature equipped with strange abilities.",
 
 
 
@@ -58,13 +59,45 @@
   "origin.compound_origins.affinity_water.description": "You are one with water.",
 
   "origin.compound_origins.affinity_earth.name": "Earth",
-  "origin.compound_origins.affinity_earth.description": "The stony depths are your home.",
+  "origin.compound_origins.affinity_earth.description": "The stony depths are your domain.",
 
   "origin.compound_origins.affinity_nature.name": "Nature",
   "origin.compound_origins.affinity_nature.description": "You overflow with life and growth.",
 
-  "origin.compound_origins.affinity_lightning.name": "Lightning",
+  "origin.compound_origins.affinity_lightning.name": "Air",
   "origin.compound_origins.affinity_lightning.description": "The skies heed your call.",
+
+
+
+  "origin.compound_origins.affinity_power_fire_fireball.name": "Fireball",
+  "origin.compound_origins.affinity_power_fire_fireball.description": "",
+
+  "origin.compound_origins.affinity_power_fire_lava.name": "Lava spit",
+  "origin.compound_origins.affinity_power_fire_lava.description": "",
+
+  "origin.compound_origins.affinity_power_earth_projectile.name": "Stone barrage",
+  "origin.compound_origins.affinity_power_earth_projectile.description": "",
+
+  "origin.compound_origins.affinity_power_earth_wall.name": "Stone wall",
+  "origin.compound_origins.affinity_power_earth_wall.description": "",
+
+  "origin.compound_origins.affinity_power_lightning_strike.name": "Lightning strike",
+  "origin.compound_origins.affinity_power_lightning_strike.description": "",
+
+  "origin.compound_origins.affinity_power_lightning_push.name": "Gale",
+  "origin.compound_origins.affinity_power_lightning_push.description": "",
+
+  "origin.compound_origins.affinity_power_nature_poisonball.name": "Poison spit",
+  "origin.compound_origins.affinity_power_nature_poisonball.description": "",
+
+  "origin.compound_origins.affinity_power_nature_wall.name": "Wild growth",
+  "origin.compound_origins.affinity_power_nature_wall.description": "",
+
+  "origin.compound_origins.affinity_power_water_freezeball.name": "Iceball",
+  "origin.compound_origins.affinity_power_water_freezeball.description": "",
+
+  "origin.compound_origins.affinity_power_water_wall.name": "Ice wall",
+  "origin.compound_origins.affinity_power_water_wall.description": "",
 
 
 
@@ -166,7 +199,7 @@
   "power.compound_origins.decreased_hunger.name": "Decreased hunger",
   "power.compound_origins.decreased_hunger.description": "You get hungry 30% slower.",
 
-  "power.compound_origins.earth_shot.name": "Rockfall",
+  "power.compound_origins.earth_shot.name": "Stone barrage",
   "power.compound_origins.earth_shot.description": "Unleash a barrage of rocks.",
 
   "power.compound_origins.extra_block_reach.name": "Telekinesis",
@@ -274,7 +307,7 @@
   "power.compound_origins.water_exhaustion.name": "Conductive",
   "power.compound_origins.water_exhaustion.description": "Being in water makes you hungry.",
 
-  "power.compound_origins.water_shot.name": "Ice burst",
+  "power.compound_origins.water_shot.name": "Iceball",
   "power.compound_origins.water_shot.description": "Throw a blob of icy water to immobilise foes.",
 
   "power.compound_origins.waterbreathing.name": "Water breathing",
@@ -296,7 +329,22 @@
   "power.compound_origins.gravel_digger.description": "You can dig sand, gravel and other similar blocks with your hands quickly, as if using a shovel.",
 
   "power.compound_origins.grovetender.name": "Grovetender",
-  "power.compound_origins.grovetender.description": "You can chop wood and cut plants quickly with your hands, as if using an axe or hoe."
+  "power.compound_origins.grovetender.description": "You can chop wood and cut plants quickly with your hands, as if using an axe or hoe.",
+
+  "power.compound_origins.lava.name": "Lava spit",
+  "power.compound_origins.lava.description": "Launch a projectile that temporarily covers an area with lava.",
+
+  "power.compound_origins.lightning_push.name": "Gale",
+  "power.compound_origins.lightning_push.description": "Summon a strong gust of air to push your foes away.",
+
+  "power.compound_origins.nature_wall.name": "Wild growth",
+  "power.compound_origins.nature_wall.description": "Sprout large leafy bushes to temporarily block or create paths.",
+
+  "power.compound_origins.stone_wall.name": "Stone wall",
+  "power.compound_origins.stone_wall.description": "You can launch stone and clay to temporarily block or create paths.",
+
+  "power.compound_origins.water_wall.name": "Ice wall",
+  "power.compound_origins.water_wall.description": "You can condense and freeze moisture into a temporary chunk of ice to block or create paths."
 
 
 

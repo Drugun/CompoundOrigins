@@ -9,7 +9,7 @@ This addon was designed to be used together with Origins Classes, so it's highly
 
 ## Contents
 
-Players can choose one origin in each of the 4 categories (Folk, Affinity, Talent, Defect).
+Players can choose one origin in each of the 4 categories (Folk, Affinity, Talent, Defect). Each Affinity also offers a choice between two different active abilities.
 
 - Folk:
   - Dragon
@@ -34,31 +34,41 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Increased food consumption
 - Affinity:
   - Fire
-    - Fireball (active ability)
     - Fire/lava immunity
     - Freeze in cold water
     - Freeze in dark in cold biomes
+    - 1 of:
+      - Incendiary fireball (active ability)
+      - Lava spit (active ability)
   - Water
-    - Icy projectile (active ability)
     - Water breathing
     - Normal block digging underwater
     - Damage in sunlight when outside water in hot biomes
     - Cannot extinguish fire by punching it
+    - 1 of:
+      - Freezing projectile (active ability)
+      - Summon ice wall (active ability)
   - Earth
-    - Stone projectiles (active ability)
     - Pickaxe-like and shovel-like hand digging
     - Longer negative status effects
+    - 1 of:
+      - Stone projectiles (active ability)
+      - Summon stone blocks (active ability)
   - Nature
-    - Poison projectile (active ability)
     - Can fertilise crops for free
     - Faster breaking of wood and plant blocks
     - Longer wither status effect
     - Increased exhaustion when mining underground
-  - Lightning
-    - Targeted lightning (active ability)
+    - 1 of:
+      - Poison projectile (active ability)
+      - Summon wall of leaves (active ability)
+  - Air
     - Lightning immunity
     - Melee retaliation
     - Slowed and exhausted in water
+    - 1 of:
+      - Targeted lightning (active ability)
+      - Push foes away (active ability)
 - Talent:
   - Increased max health
   - Increased armour

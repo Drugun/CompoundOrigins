@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:nature_wall"
+    ],
+    "icon": {
+        "item": "minecraft:oak_leaves"
+    },
+    "order": 2,
+    "impact": 1,
+    "loading_priority": 1
+}

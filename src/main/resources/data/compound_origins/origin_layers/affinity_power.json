@@ -1,0 +1,63 @@
+{
+    "order": 6,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_fire",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:affinity_power_fire_fireball",
+                "compound_origins:affinity_power_fire_lava"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_lightning",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:affinity_power_lightning_strike",
+                "compound_origins:affinity_power_lightning_push"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_water",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:affinity_power_water_freezeball",
+                "compound_origins:affinity_power_water_wall"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_earth",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:affinity_power_earth_projectile",
+                "compound_origins:affinity_power_earth_wall"
+            ]
+        },
+        {
+            "condition": {
+                "type": "origins:origin",
+                "origin": "compound_origins:affinity_nature",
+                "layer": "compound_origins:affinity"
+            },
+            "origins": [
+                "compound_origins:affinity_power_nature_poisonball",
+                "compound_origins:affinity_power_nature_wall"
+            ]
+        }
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "allow_random": true
+}

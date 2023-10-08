@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:nature_shot"
+    ],
+    "icon": {
+        "item": "minecraft:oak_sapling"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

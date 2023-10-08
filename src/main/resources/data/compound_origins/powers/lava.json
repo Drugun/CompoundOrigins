@@ -1,0 +1,37 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "compound_origins:fire_resource",
+    "comparison": ">=",
+    "compare_to": 150
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "compound_origins:fire_resource",
+        "change": -150
+      },
+      {
+        "type": "apugli:fire_projectile",
+        "entity_type": "compound_origins:affinity_fire_projectile_lava",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "speed": 0.7,
+        "divergence": 1.0
+      }
+    ]
+  },
+  "badges": [
+    {
+      "type": "origins:keybind",
+      "sprite": "origins:textures/gui/badge/active.png",
+      "text": "compound_origins.gui.badge.primary"
+    }
+  ]
+}

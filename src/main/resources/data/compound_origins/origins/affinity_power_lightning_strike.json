@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:lightning_strike"
+    ],
+    "icon": {
+        "item": "minecraft:lightning_rod"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

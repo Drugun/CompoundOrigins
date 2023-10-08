@@ -4,22 +4,28 @@
         "type": "origins:resource",
         "resource": "compound_origins:lightning_resource",
         "comparison": ">=",
-        "compare_to": 150
+        "compare_to": 50
     },
     "entity_action": {
         "type": "origins:raycast",
         "distance": 20,
         "block": true,
         "entity": true,
+        "fluid_handling": "none",
         "shape_type": "collider",
-        "command_at_hit": "summon minecraft:lightning_bolt",
+        "bientity_action": {
+            "type": "origins:add_velocity",
+            "client": false,
+            "z": 1.3,
+            "y": 0.7
+        },
         "hit_action": {
             "type": "origins:and",
             "actions":[
                 {
                     "type": "origins:change_resource",
                     "resource": "compound_origins:lightning_resource",
-                    "change": -150
+                    "change": -50
                 },
                 {
                     "type": "origins:swing_hand",

@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:earth_shot"
+    ],
+    "icon": {
+        "item": "minecraft:clay"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}

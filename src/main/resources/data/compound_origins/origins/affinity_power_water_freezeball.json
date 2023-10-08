@@ -1,0 +1,11 @@
+{
+	"powers": [
+        "compound_origins:water_shot"
+    ],
+    "icon": {
+        "item": "minecraft:snowball"
+    },
+    "order": 1,
+    "impact": 1,
+    "loading_priority": 1
+}
