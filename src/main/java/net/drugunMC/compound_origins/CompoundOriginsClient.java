@@ -42,6 +42,7 @@ public class CompoundOriginsClient implements ClientModInitializer {
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_EARTH_PROJECTILE, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_NATURE_PROJECTILE, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_WATER_PROJECTILE, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(CompoundOrigins.TELEPORT_PROJECTILE, FlyingItemEntityRenderer::new);
 
 
 		BlockRenderLayerMap.INSTANCE.putBlock(TEMPORARY_LEAVES, RenderLayer.getCutout());

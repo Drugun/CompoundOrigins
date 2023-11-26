@@ -27,9 +27,9 @@ public class CompoundOrigins implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
 	public static final String ModID = "compound_origins";
+	public static final Logger LOGGER = LoggerFactory.getLogger(ModID);
 
 	public static final CompoundOriginsConfig CONFIG = CompoundOriginsConfig.createAndLoad();
 
@@ -39,11 +39,12 @@ public class CompoundOrigins implements ModInitializer {
 	public static final TemporaryBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing(), 300, 200, 1);
 	public static final TemporaryBlock TEMPORARY_LEAVES = new TemporaryLeavesBlock(FabricBlockSettings.create().hardness(1.0F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.GRASS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200);
 
-	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
-	public static final EntityType<FireAffinityProjectileLava> AFFINITY_FIRE_PROJECTILE_LAVA = FabricEntityTypeBuilder.<FireAffinityProjectileLava>create(SpawnGroup.MISC, FireAffinityProjectileLava::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
-	public static final EntityType<EarthAffinityProjectile> AFFINITY_EARTH_PROJECTILE = FabricEntityTypeBuilder.<EarthAffinityProjectile>create(SpawnGroup.MISC, EarthAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
-	public static final EntityType<NatureAffinityProjectile> AFFINITY_NATURE_PROJECTILE = FabricEntityTypeBuilder.<NatureAffinityProjectile>create(SpawnGroup.MISC, NatureAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
-	public static final EntityType<WaterAffinityProjectile> AFFINITY_WATER_PROJECTILE = FabricEntityTypeBuilder.<WaterAffinityProjectile>create(SpawnGroup.MISC, WaterAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackable(64, 10).build();
+	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
+	public static final EntityType<FireAffinityProjectileLava> AFFINITY_FIRE_PROJECTILE_LAVA = FabricEntityTypeBuilder.<FireAffinityProjectileLava>create(SpawnGroup.MISC, FireAffinityProjectileLava::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
+	public static final EntityType<EarthAffinityProjectile> AFFINITY_EARTH_PROJECTILE = FabricEntityTypeBuilder.<EarthAffinityProjectile>create(SpawnGroup.MISC, EarthAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
+	public static final EntityType<NatureAffinityProjectile> AFFINITY_NATURE_PROJECTILE = FabricEntityTypeBuilder.<NatureAffinityProjectile>create(SpawnGroup.MISC, NatureAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
+	public static final EntityType<WaterAffinityProjectile> AFFINITY_WATER_PROJECTILE = FabricEntityTypeBuilder.<WaterAffinityProjectile>create(SpawnGroup.MISC, WaterAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
+	public static final EntityType<TeleportProjectile> TELEPORT_PROJECTILE = FabricEntityTypeBuilder.<TeleportProjectile>create(SpawnGroup.MISC, TeleportProjectile::new).dimensions(EntityDimensions.fixed(0.05f, 0.05f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
 
 
 
@@ -79,6 +80,7 @@ public class CompoundOrigins implements ModInitializer {
 		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_earth_projectile"), AFFINITY_EARTH_PROJECTILE);
 		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_nature_projectile"), AFFINITY_NATURE_PROJECTILE);
 		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "affinity_water_projectile"), AFFINITY_WATER_PROJECTILE);
+		Registry.register(Registries.ENTITY_TYPE, new Identifier(CompoundOrigins.ModID, "teleport_projectile"), TELEPORT_PROJECTILE);
 
 
 

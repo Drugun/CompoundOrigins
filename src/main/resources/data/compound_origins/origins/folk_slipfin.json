@@ -1,0 +1,14 @@
+{
+    "powers": [
+        "compound_origins:teleport",
+        "compound_origins:teleport_resource",
+        "compound_origins:teleport_resource_regen",
+        "compound_origins:increased_hunger_folk"
+    ],
+    "icon": {
+        "item": "minecraft:end_portal_frame"
+    },
+    "order": 6,
+    "impact": 2,
+    "loading_priority": 1
+}

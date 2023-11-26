@@ -8,6 +8,7 @@
 
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
+  "compound_origins.gui.badge.secondaryActive": "Activate by pressing the secondary ability button.",
   "compound_origins.gui.badge.fly": "Upon spawning, equip the wings in the wing slot. Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
   "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
   "compound_origins.gui.badge.overworld": "Only applies in the Overworld.",
@@ -25,30 +26,33 @@
   "origin.compound_origins.custom_base.name": "Custom Origin",
   "origin.compound_origins.custom_base.description": "Assemble a custom origin from the Compound origins addon.",
 
-  "origin.compound_origins.folk_dragon.name": "Dragon",
-  "origin.compound_origins.folk_dragon.description": "You are a dragon with innate flight.",
-  "origin.compound_origins.folk_dragon_black.name": "Black dragon",
+  "origin.compound_origins.folk_dragon.name": "Dragonen",
+  "origin.compound_origins.folk_dragon.description": "You are a creature with innate flight, reminiscent of a dragon.",
+  "origin.compound_origins.folk_dragon_black.name": "Black Dragonen",
   "origin.compound_origins.folk_dragon_black.description": "Your wings are black.",
-  "origin.compound_origins.folk_dragon_blue.name": "Blue dragon",
+  "origin.compound_origins.folk_dragon_blue.name": "Blue Dragonen",
   "origin.compound_origins.folk_dragon_blue.description": "Your wings are blue.",
-  "origin.compound_origins.folk_dragon_green.name": "Green dragon",
+  "origin.compound_origins.folk_dragon_green.name": "Green Dragonen",
   "origin.compound_origins.folk_dragon_green.description": "Your wings are green.",
-  "origin.compound_origins.folk_dragon_grey.name": "Grey dragon",
+  "origin.compound_origins.folk_dragon_grey.name": "Grey Dragonen",
   "origin.compound_origins.folk_dragon_grey.description": "Your wings are grey.",
-  "origin.compound_origins.folk_dragon_red.name": "Red dragon",
+  "origin.compound_origins.folk_dragon_red.name": "Red Dragonen",
   "origin.compound_origins.folk_dragon_red.description": "Your wings are red.",
 
-  "origin.compound_origins.folk_faun.name": "Faun",
-  "origin.compound_origins.folk_faun.description": "You are a forest creature that moves with speed and grace.",
+  "origin.compound_origins.folk_faun.name": "Faunan",
+  "origin.compound_origins.folk_faun.description": "You are a graceful and swift ruminant-resembling creature.",
 
-  "origin.compound_origins.folk_lupine.name": "Lupine",
-  "origin.compound_origins.folk_lupine.description": "You are a wolf-like night-time hunter.",
+  "origin.compound_origins.folk_lupine.name": "Luamane",
+  "origin.compound_origins.folk_lupine.description": "You are a wolf-like night-time creature.",
 
-  "origin.compound_origins.folk_lizard.name": "Naga",
+  "origin.compound_origins.folk_lizard.name": "Wraitscal",
   "origin.compound_origins.folk_lizard.description": "You are an elusive serpentine creature.",
 
-  "origin.compound_origins.folk_octopus.name": "Benthic",
+  "origin.compound_origins.folk_octopus.name": "Benthite",
   "origin.compound_origins.folk_octopus.description": "You are a soft-bodied creature equipped with strange abilities.",
+
+  "origin.compound_origins.folk_slipfin.name": "Slipfin",
+  "origin.compound_origins.folk_slipfin.description": "You are a fishy creature able to move in ways like no other.",
 
 
 
@@ -344,8 +348,10 @@
   "power.compound_origins.stone_wall.description": "You can launch stone and clay to temporarily block or create paths.",
 
   "power.compound_origins.water_wall.name": "Ice wall",
-  "power.compound_origins.water_wall.description": "You can condense and freeze moisture into a temporary chunk of ice to block or create paths."
+  "power.compound_origins.water_wall.description": "You can condense and freeze moisture into a temporary chunk of ice to block or create paths.",
 
+  "power.compound_origins.teleport.name": "Teleport",
+  "power.compound_origins.teleport.description": "Teleport to the targeted position. 20 block range."
 
 
 

@@ -12,25 +12,28 @@ This addon was designed to be used together with Origins Classes, so it's highly
 Players can choose one origin in each of the 4 categories (Folk, Affinity, Talent, Defect). Each Affinity also offers a choice between two different active abilities.
 
 - Folk:
-  - Dragon
+  - Dragonen
     - Wings (like elytra, but better)
     - Increased food consumption
-  - Lupine
+  - Luamane
     - Night vision (toggle)
     - Feed on kill
     - Increased food consumption
-  - Faun
+  - Faunan
     - Fast movement
     - High jumps (toggle)
     - Reduced fall damage
     - Increased food consumption
-  - Naga
+  - Wraitscal
     - Invisibility (toggle)
     - Climbing
     - Increased food consumption
-  - Benthic
+  - Benthite
     - Extra block reach
     - See nearby mobs and players through walls (toggle)
+    - Increased food consumption
+  - Slipfin
+    - Short-range teleport
     - Increased food consumption
 - Affinity:
   - Fire
@@ -54,6 +57,13 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - 1 of:
       - Stone projectiles (active ability)
       - Summon stone blocks (active ability)
+  - Air
+    - Lightning immunity
+    - Melee retaliation
+    - Slowed and exhausted in water
+    - 1 of:
+      - Targeted lightning (active ability)
+      - Push foes away (active ability)
   - Nature
     - Can fertilise crops for free
     - Faster breaking of wood and plant blocks
@@ -62,13 +72,6 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - 1 of:
       - Poison projectile (active ability)
       - Summon wall of leaves (active ability)
-  - Air
-    - Lightning immunity
-    - Melee retaliation
-    - Slowed and exhausted in water
-    - 1 of:
-      - Targeted lightning (active ability)
-      - Push foes away (active ability)
 - Talent:
   - Increased max health
   - Increased armour

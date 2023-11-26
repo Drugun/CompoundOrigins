@@ -1,0 +1,28 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "compound_origins:teleport_resource",
+        "comparison": ">=",
+        "compare_to": 25
+    },
+    "entity_action": {
+        "type": "apugli:fire_projectile",
+        "entity_type": "compound_origins:teleport_projectile",
+        "sound": "minecraft:entity.enderman.teleport",
+        "speed": 5.0,
+        "divergence": 0.0
+    },
+    "cooldown": 20,
+    "key": {
+        "key": "key.origins.secondary_active",
+        "continuous": false
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "compound_origins.gui.badge.secondaryActive"
+        }
+    ]
+}
