@@ -49,10 +49,8 @@ public class FireAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
-        for(int i = 0; i < 30; i++){
-            this.getWorld().addParticle(ParticleTypes.FLAME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
-        }
         if (!this.getWorld().isClient) {
+            this.getWorld().syncWorldEvent(null, 59747843, this.getBlockPos(), 0);
             this.getWorld().createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
             this.discard();
         }

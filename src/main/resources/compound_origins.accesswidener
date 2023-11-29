@@ -1,0 +1,7 @@
+accessWidener	v2	named
+
+accessible method net/minecraft/client/render/WorldRenderer addParticle (Lnet/minecraft/particle/ParticleEffect;DDDDDD)V
+accessible field net/minecraft/client/render/WorldRenderer world Lnet/minecraft/client/world/ClientWorld;
+
+
+

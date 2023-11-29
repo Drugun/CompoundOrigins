@@ -122,7 +122,8 @@ public class TeleportProjectile extends ThrownItemEntity {
     }
 
     private void teleport(Vec3d pos, Entity entity, int drain){
-        this.getWorld().playSound(null, BlockPos.ofFloored(pos), SoundEvents.ENTITY_ENDERMAN_TELEPORT, SoundCategory.PLAYERS);
+        this.getWorld().syncWorldEvent(null, 59747841, entity.getBlockPos(), 0);
+        this.getWorld().syncWorldEvent(null, 59747841, BlockPos.ofFloored(pos), 0);
         entity.teleport(pos.getX(), pos.getY(), pos.getZ());
         drainResource(drain, entity);
 

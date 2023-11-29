@@ -12,6 +12,7 @@
   "compound_origins.gui.badge.fly": "Upon spawning, equip the wings in the wing slot. Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
   "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
   "compound_origins.gui.badge.overworld": "Only applies in the Overworld.",
+  "compound_origins.gui.badge.teleport": "Activate the ability while aiming at the top block of a cliff or wall to teleport on top of it.",
 
 
 

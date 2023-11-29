@@ -43,10 +43,8 @@ public class WaterAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
-        for(int i = 0; i < 30; i++){
-            this.getWorld().addParticle(ParticleTypes.SNOWFLAKE, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
-        }
         if (!this.getWorld().isClient) {
+            this.getWorld().syncWorldEvent(null, 59747842, this.getBlockPos(), 0);
             Entity owner = this.getEffectCause();
             Box box = this.getBoundingBox().expand(2.0, 1.5, 2.0);
             List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);

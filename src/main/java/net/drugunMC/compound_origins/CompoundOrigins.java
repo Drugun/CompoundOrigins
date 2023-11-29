@@ -24,9 +24,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CompoundOrigins implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 
 	public static final String ModID = "compound_origins";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ModID);
@@ -36,7 +33,7 @@ public class CompoundOrigins implements ModInitializer {
 
 	public static final TemporaryBlock TEMPORARY_COBBLESTONE = new TemporaryBlock(FabricBlockSettings.create().hardness(15.0F).resistance(6.0F).dropsNothing(), 300, 200);
 	public static final TemporaryBlock TEMPORARY_ICE = new TemporaryBlock(FabricBlockSettings.create().hardness(2.0F).resistance(4.0F).dropsNothing().slipperiness(0.98F).sounds(BlockSoundGroup.GLASS), 300, 200);
-	public static final TemporaryBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing(), 300, 200, 1);
+	public static final TemporaryBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing().luminance(15), 300, 200, 1);
 	public static final TemporaryBlock TEMPORARY_LEAVES = new TemporaryLeavesBlock(FabricBlockSettings.create().hardness(1.0F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.GRASS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200);
 
 	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
@@ -60,9 +57,6 @@ public class CompoundOrigins implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 
 		//LOGGER.info("Hello Fabric world!");
 

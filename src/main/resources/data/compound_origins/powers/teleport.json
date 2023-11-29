@@ -9,7 +9,6 @@
     "entity_action": {
         "type": "apugli:fire_projectile",
         "entity_type": "compound_origins:teleport_projectile",
-        "sound": "minecraft:entity.enderman.teleport",
         "speed": 5.0,
         "divergence": 0.0
     },
@@ -23,6 +22,11 @@
             "type": "origins:keybind",
             "sprite": "origins:textures/gui/badge/active.png",
             "text": "compound_origins.gui.badge.secondaryActive"
+        },
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "compound_origins.gui.badge.teleport"
         }
     ]
 }

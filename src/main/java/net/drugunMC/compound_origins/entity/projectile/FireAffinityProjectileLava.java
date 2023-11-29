@@ -49,17 +49,11 @@ public class FireAffinityProjectileLava extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
-
-        /*
-        for(int n = 0; n < 30; n++){
-            this.getWorld().addParticle(ParticleTypes.FLAME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
-        }
-        */
-
         if (!this.getWorld().isClient) {
             BlockPos pos = this.getBlockPos();
             BlockPos pos2;
             World world = this.getWorld();
+            this.getWorld().syncWorldEvent(null, 59747844, pos, 0);
             for(int i = -2; i <= 2; i++){
                 for(int j = -2; j <= 2; j++){
                     for(int k = -2; k <= 2; k++){

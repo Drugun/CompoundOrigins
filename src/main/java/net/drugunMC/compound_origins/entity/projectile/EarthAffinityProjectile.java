@@ -49,10 +49,9 @@ public class EarthAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
-        for(int i = 0; i < 5; i++){
-            this.getWorld().addParticle(ParticleTypes.POOF, this.getX()+(this.random.nextDouble()), this.getY()+(this.random.nextDouble()), this.getZ()+(this.random.nextDouble()), this.random.nextDouble()*0.1, this.random.nextDouble()*0.1, this.random.nextDouble()*0.1);
+        if(!this.getWorld().isClient){
+            this.getWorld().syncWorldEvent(null, 59747845, this.getBlockPos(), 0);
+            this.discard();
         }
-        this.discard();
-
     }
 }

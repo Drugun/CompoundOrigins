@@ -1,6 +1,8 @@
 package net.drugunMC.compound_origins.entity.projectile;
 
 import net.drugunMC.compound_origins.CompoundOrigins;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityGroup;
 import net.minecraft.entity.EntityType;
@@ -17,6 +19,8 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.Box;
 import net.minecraft.world.World;
 import java.util.List;
+
+import static net.minecraft.block.Block.getRawIdFromState;
 
 public class NatureAffinityProjectile extends ThrownItemEntity {
     public NatureAffinityProjectile(EntityType<? extends NatureAffinityProjectile> entityType, World world) {
@@ -46,10 +50,8 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
-        for(int i = 0; i < 30; i++){
-            this.getWorld().addParticle(ParticleTypes.ITEM_SLIME, this.getX()+2*(this.random.nextDouble()-0.5), this.getY()+2*(this.random.nextDouble()-0.5), this.getZ()+2*(this.random.nextDouble()-0.5), this.random.nextDouble()*0.2, this.random.nextDouble()*0.2, this.random.nextDouble()*0.2);
-        }
         if (!this.getWorld().isClient) {
+            this.getWorld().syncWorldEvent(null, 59747840, this.getBlockPos(), 0);
             Entity owner = this.getEffectCause();
             Box box = this.getBoundingBox().expand(1.5, 1.5, 1.5);
             List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
