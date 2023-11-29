@@ -33,7 +33,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - See nearby mobs and players through walls (toggle)
     - Increased food consumption
   - Slipfin
-    - Short-range teleport
+    - Short-range teleport (active ability)
     - Increased food consumption
 - Affinity:
   - Fire
@@ -63,7 +63,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Slowed and exhausted in water
     - 1 of:
       - Targeted lightning (active ability)
-      - Push foes away (active ability)
+      - Push nearby foes away (active ability)
   - Nature
     - Can fertilise crops for free
     - Faster breaking of wood and plant blocks

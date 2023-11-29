@@ -1,0 +1,55 @@
+{
+    "type": "origins:active_self",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "compound_origins:lightning_resource",
+        "comparison": ">=",
+        "compare_to": 100
+    },
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type": "origins:selector_action",
+                "selector": "@e[distance=..8]",
+                "bientity_action": {
+                    "type": "origins:add_velocity",
+                    "client": false,
+                    "z": 1.3,
+                    "y": 0.7
+                },
+                "bientity_condition": {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:living"
+                    }
+                }
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "compound_origins:lightning_resource",
+                "change": -100
+            },
+            {
+                "type": "origins:swing_hand",
+                "hand": "MAIN_HAND"
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:entity.ender_dragon.shoot",
+                "volume": 2.0
+            }
+        ]
+    },
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "compound_origins.gui.badge.primary"
+        }
+    ],
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    }
+}

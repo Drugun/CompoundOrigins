@@ -339,8 +339,11 @@
   "power.compound_origins.lava.name": "Lava spit",
   "power.compound_origins.lava.description": "Launch a projectile that temporarily covers an area with lava.",
 
-  "power.compound_origins.lightning_push.name": "Gale",
-  "power.compound_origins.lightning_push.description": "Summon a strong gust of air to push your foes away.",
+  "power.compound_origins.lightning_push.name": "Gust",
+  "power.compound_origins.lightning_push.description": "Summon a strong gust of air to push a foe away.",
+
+  "power.compound_origins.lightning_push_area.name": "Gale",
+  "power.compound_origins.lightning_push_area.description": "Summon a strong gust of air to push nearby foes away.",
 
   "power.compound_origins.nature_wall.name": "Wild growth",
   "power.compound_origins.nature_wall.description": "Sprout large leafy bushes to temporarily block or create paths.",
