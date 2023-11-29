@@ -20,8 +20,8 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Feed on kill
     - Increased food consumption
   - Faunan
-    - Fast movement
-    - High jumps (toggle)
+    - Faster movement
+    - Higher jumps (toggle)
     - Reduced fall damage
     - Increased food consumption
   - Wraitscal

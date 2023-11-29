@@ -211,7 +211,7 @@
   "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
 
   "power.compound_origins.fast_movement.name": "Faster movement",
-  "power.compound_origins.fast_movement.description": "You move 30% faster.",
+  "power.compound_origins.fast_movement.description": "You move 25% faster.",
 
   "power.compound_origins.fire_lava_immunity.name": "Heat-resistant",
   "power.compound_origins.fire_lava_immunity.description": "You take no damage from fire and lava.",
