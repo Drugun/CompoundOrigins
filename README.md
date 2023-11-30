@@ -17,7 +17,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Increased food consumption
   - Luamane
     - Night vision (toggle)
-    - Feed on kill
+    - Chance to avoid projectile damage
     - Increased food consumption
   - Faunan
     - Faster movement

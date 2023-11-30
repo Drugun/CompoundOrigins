@@ -1,11 +1,24 @@
 {
-    "type": "origins:starting_equipment",
-    "stacks": [
-        {
-            "item": "icarus:red_dragon_wings",
-            "tag": "{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1},{id:\"minecraft:binding_curse\",lvl:1}]}"
-        }
-    ],
-    "recurrent": true,
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "trinkets set chest cape 0 icarus:red_dragon_wings{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1},{id:\"minecraft:binding_curse\",lvl:1}]}"
+    },
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "trinkets set chest cape 0 icarus:red_dragon_wings{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1},{id:\"minecraft:binding_curse\",lvl:1}]}"
+    },
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "trinkets set chest cape 0 icarus:red_dragon_wings{Enchantments:[{id:\"minecraft:vanishing_curse\",lvl:1},{id:\"minecraft:binding_curse\",lvl:1}]}"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "trinkets set chest cape 0 minecraft:air"
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "trinkets set chest cape 0 minecraft:air"
+    },
     "hidden": true
 }

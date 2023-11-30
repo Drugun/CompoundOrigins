@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:impact_projectiles"
+        }
+    },
+    "condition": {
+        "type": "origins:predicate",
+        "predicate": "compound_origins:random"
+    },
+    "modifier": {
+        "name": "Projectile dodge",
+        "operation": "set_total",
+        "value": 0
+    }
+}

@@ -2,7 +2,7 @@
     "powers": [
         "compound_origins:secondary_toggle",
         "compound_origins:night_vision",
-        "compound_origins:feeding",
+        "compound_origins:dodge",
         "compound_origins:increased_hunger_folk"
     ],
     "icon": {

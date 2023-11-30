@@ -9,7 +9,7 @@
   "compound_origins.gui.badge.primary": "Activate by pressing the primary ability button.",
   "compound_origins.gui.badge.secondary": "Toggle by pressing the secondary ability button.",
   "compound_origins.gui.badge.secondaryActive": "Activate by pressing the secondary ability button.",
-  "compound_origins.gui.badge.fly": "Upon spawning, equip the wings in the wing slot. Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
+  "compound_origins.gui.badge.fly": "Press the jump key [Space] in the air to glide. While gliding, hold the forward key [W] to accelerate - this drains your hunger bar.",
   "compound_origins.gui.badge.right_click_empty_hand": "Press the interact key (right mouse click) on the desired block with an empty hand.",
   "compound_origins.gui.badge.overworld": "Only applies in the Overworld.",
   "compound_origins.gui.badge.teleport": "Activate the ability while aiming at the top block of a cliff or wall to teleport on top of it.",
@@ -355,7 +355,11 @@
   "power.compound_origins.water_wall.description": "You can condense and freeze moisture into a temporary chunk of ice to block or create paths.",
 
   "power.compound_origins.teleport.name": "Teleport",
-  "power.compound_origins.teleport.description": "Teleport to the targeted position. 20 block range."
+  "power.compound_origins.teleport.description": "Teleport to the targeted position. 20 block range.",
+
+  "power.compound_origins.dodge.name": "Swift reflexes",
+  "power.compound_origins.dodge.description": "You have a 75% chance to avoid incoming projectile damage."
+
 
 
 
