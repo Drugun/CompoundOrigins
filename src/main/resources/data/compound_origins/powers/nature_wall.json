@@ -9,7 +9,7 @@
     "type": "origins:resource",
     "resource": "compound_origins:nature_resource",
     "comparison": ">=",
-    "compare_to": 40
+    "compare_to": 50
   },
   "entity_action": {
     "type": "origins:raycast",
@@ -63,7 +63,7 @@
         {
           "type": "origins:change_resource",
           "resource": "compound_origins:nature_resource",
-          "change": -40
+          "change": -50
         },
         {
           "type": "origins:swing_hand",
@@ -71,7 +71,7 @@
         },
         {
           "type": "origins:play_sound",
-          "sound": "minecraft:entity.ender_dragon.shoot",
+          "sound": "minecraft:entity.evoker.cast_spell",
           "volume": 2.0
         }
       ]
