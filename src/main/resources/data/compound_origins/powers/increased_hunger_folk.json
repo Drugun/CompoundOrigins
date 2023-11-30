@@ -1,7 +1,17 @@
 {
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "operation": "multiply_base",
-        "value": 0.5
-    }
+    "type": "origins:modify_food",
+    "food_modifiers": [
+        {
+            "name": "Decreased food points",
+            "operation": "multiply_base_multiplicative",
+            "value": -0.5
+        },
+        {
+            "name": "Minimum food points",
+            "operation": "min_total",
+            "value": 1
+        }
+    ]
+
+
 }

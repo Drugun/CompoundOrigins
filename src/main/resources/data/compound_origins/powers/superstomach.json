@@ -23,7 +23,7 @@
                 "effect": {
                     "effect": "minecraft:slowness",
                     "amplifier": 1,
-                    "duration": 600,
+                    "duration": 1200,
                     "show_particles": false,
                     "show_icon": false
                 }
@@ -33,7 +33,7 @@
                 "effect": {
                     "effect": "minecraft:mining_fatigue",
                     "amplifier": 1,
-                    "duration": 600,
+                    "duration": 1200,
                     "show_particles": false,
                     "show_icon": false
                 }
