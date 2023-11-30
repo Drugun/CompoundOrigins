@@ -3,7 +3,8 @@
     "render_armor": true,
     "condition": {
         "type": "origins:power_active",
-        "power": "compound_origins:secondary_toggle"
+        "power": "compound_origins:secondary_toggle",
+        "inverted": true
     },
     "badges": [
         {

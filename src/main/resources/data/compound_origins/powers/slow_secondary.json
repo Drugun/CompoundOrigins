@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": -0.2
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "compound_origins:secondary_toggle",
+        "inverted": true
+    },
+    "update_health": false,
+    "hidden": true
+}

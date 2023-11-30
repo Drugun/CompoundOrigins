@@ -211,7 +211,7 @@
   "power.compound_origins.extra_block_reach.description": "Your block reach is 3 blocks longer.",
 
   "power.compound_origins.fast_movement.name": "Faster movement",
-  "power.compound_origins.fast_movement.description": "You move 25% faster.",
+  "power.compound_origins.fast_movement.description": "You move 30% faster.",
 
   "power.compound_origins.fire_lava_immunity.name": "Heat-resistant",
   "power.compound_origins.fire_lava_immunity.description": "You take no damage from fire and lava.",
@@ -244,7 +244,7 @@
   "power.compound_origins.increased_regen.description": "All healing is increased by 20%",
 
   "power.compound_origins.invisibility.name": "Invisibility",
-  "power.compound_origins.invisibility.description": "Your can become invisible. However, armour and equipment is unaffected.",
+  "power.compound_origins.invisibility.description": "You can become invisible. However, armour and equipment is unaffected. Also, you move 20% slower while invisible.",
 
   "power.compound_origins.lightning_immunity.name": "Lightning immunity",
   "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",

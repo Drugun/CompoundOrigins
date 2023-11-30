@@ -3,7 +3,8 @@
         "compound_origins:secondary_toggle",
         "compound_origins:invisibility",
         "compound_origins:climbing",
-        "compound_origins:increased_hunger_folk"
+        "compound_origins:increased_hunger_folk",
+        "compound_origins:slow_secondary"
     ],
     "icon": {
         "item": "minecraft:ender_eye"
