@@ -33,7 +33,7 @@ public class CompoundOrigins implements ModInitializer {
 
 	public static final TemporaryBlock TEMPORARY_COBBLESTONE = new TemporaryBlock(FabricBlockSettings.create().hardness(15.0F).resistance(6.0F).dropsNothing(), 300, 200);
 	public static final TemporaryBlock TEMPORARY_ICE = new TemporaryBlock(FabricBlockSettings.create().hardness(2.0F).resistance(4.0F).dropsNothing().slipperiness(0.98F).sounds(BlockSoundGroup.GLASS), 300, 200);
-	public static final TemporaryBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing().luminance(15), 300, 200, 1);
+	public static final TemporaryBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing().luminance(15), 300, 200, 2);
 	public static final TemporaryBlock TEMPORARY_LEAVES = new TemporaryLeavesBlock(FabricBlockSettings.create().hardness(1.0F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.GRASS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200);
 
 	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();

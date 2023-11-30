@@ -9,7 +9,7 @@
     "type": "origins:resource",
     "resource": "compound_origins:earth_resource",
     "comparison": ">=",
-    "compare_to": 25
+    "compare_to": 35
   },
   "entity_action": {
     "type": "origins:and",
@@ -17,13 +17,13 @@
       {
         "type": "origins:change_resource",
         "resource": "compound_origins:earth_resource",
-        "change": -25
+        "change": -35
       },
       {
         "type": "apugli:fire_projectile",
         "entity_type": "compound_origins:affinity_earth_projectile",
         "sound": "minecraft:entity.ender_dragon.shoot",
-        "speed": 0.7,
+        "speed": 0.85,
         "count": 1,
         "divergence": 5.0
       }

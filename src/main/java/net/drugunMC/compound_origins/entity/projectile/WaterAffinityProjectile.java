@@ -17,6 +17,12 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class WaterAffinityProjectile extends ThrownItemEntity {
+
+
+    private int lifetime = 30;
+
+
+
     public WaterAffinityProjectile(EntityType<? extends WaterAffinityProjectile> entityType, World world) {
         super(entityType, world);
     }
@@ -35,6 +41,19 @@ public class WaterAffinityProjectile extends ThrownItemEntity {
 
 
 
+    @Override
+    public void tick() {
+        super.tick();
+        if(lifetime <= 0){
+            if(!this.getWorld().isClient){
+                this.explode();
+            }
+        }
+        else{
+            lifetime--;
+        }
+    }
+
 
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
@@ -44,18 +63,22 @@ public class WaterAffinityProjectile extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         if (!this.getWorld().isClient) {
-            this.getWorld().syncWorldEvent(null, 59747842, this.getBlockPos(), 0);
-            Entity owner = this.getEffectCause();
-            Box box = this.getBoundingBox().expand(2.0, 1.5, 2.0);
-            List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
-            if (!list.isEmpty()) {
-                for (LivingEntity e: list) {
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 7, 4), owner);
-                }
-
-            }
-            this.discard();
+            this.explode();
         }
 
+    }
+
+    private void explode(){
+        this.getWorld().syncWorldEvent(null, 59747842, this.getBlockPos(), 0);
+        Entity owner = this.getEffectCause();
+        Box box = this.getBoundingBox().expand(2.0, 1.5, 2.0);
+        List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
+        if (!list.isEmpty()) {
+            for (LivingEntity e: list) {
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 110, 4), owner);
+            }
+
+        }
+        this.discard();
     }
 }

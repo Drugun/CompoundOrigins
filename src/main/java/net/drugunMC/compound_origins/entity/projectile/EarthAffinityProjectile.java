@@ -14,6 +14,12 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
 
 public class EarthAffinityProjectile extends ThrownItemEntity {
+
+
+    private int lifetime = 200;
+
+
+
     public EarthAffinityProjectile(EntityType<? extends EarthAffinityProjectile> entityType, World world) {
         super(entityType, world);
     }
@@ -32,6 +38,20 @@ public class EarthAffinityProjectile extends ThrownItemEntity {
 
 
 
+    @Override
+    public void tick() {
+        super.tick();
+        if(lifetime <= 0){
+            if(!this.getWorld().isClient){
+                this.getWorld().syncWorldEvent(null, 59747845, this.getBlockPos(), 0);
+                this.discard();
+            }
+        }
+        else{
+            lifetime--;
+        }
+    }
+
 
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
@@ -39,7 +59,7 @@ public class EarthAffinityProjectile extends ThrownItemEntity {
         if (!this.getWorld().isClient) {
             Entity entity = entityHitResult.getEntity();
             Entity entity2 = this.getOwner();
-            entity.damage(getWorld().getDamageSources().thrown(this, entity2), 2.0F);
+            entity.damage(getWorld().getDamageSources().thrown(this, entity2), 3.0F);
             if (entity2 instanceof LivingEntity) {
                 this.applyDamageEffects((LivingEntity)entity2, entity);
             }

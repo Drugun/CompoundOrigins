@@ -22,7 +22,7 @@
         "type": "apugli:fire_projectile",
         "entity_type": "compound_origins:affinity_water_projectile",
         "sound": "minecraft:entity.ender_dragon.shoot",
-        "speed": 0.7,
+        "speed": 1.0,
         "divergence": 1.0
       }
     ]

@@ -14,6 +14,12 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
 
 public class FireAffinityProjectile extends ThrownItemEntity {
+
+
+    private int lifetime = 60;
+
+
+
     public FireAffinityProjectile(EntityType<? extends net.drugunMC.compound_origins.entity.projectile.FireAffinityProjectile> entityType, World world) {
         super(entityType, world);
     }
@@ -31,6 +37,19 @@ public class FireAffinityProjectile extends ThrownItemEntity {
     }
 
 
+
+    @Override
+    public void tick() {
+        super.tick();
+        if(lifetime <= 0){
+            if(!this.getWorld().isClient){
+                this.explode();
+            }
+        }
+        else{
+            lifetime--;
+        }
+    }
 
 
 
@@ -50,10 +69,14 @@ public class FireAffinityProjectile extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         if (!this.getWorld().isClient) {
-            this.getWorld().syncWorldEvent(null, 59747843, this.getBlockPos(), 0);
-            this.getWorld().createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
-            this.discard();
+            this.explode();
         }
 
+    }
+
+    private void explode(){
+        this.getWorld().syncWorldEvent(null, 59747843, this.getBlockPos(), 0);
+        this.getWorld().createExplosion(null, this.getX(), this.getY(), this.getZ(), 1.5f, true, World.ExplosionSourceType.NONE);
+        this.discard();
     }
 }

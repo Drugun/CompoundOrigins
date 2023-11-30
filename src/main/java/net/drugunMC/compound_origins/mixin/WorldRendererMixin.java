@@ -39,7 +39,7 @@ public abstract class WorldRendererMixin {
         if(eventId == 59747840){    // poison projectile
             this.world.playSoundAtBlockCenter(pos, SoundEvents.BLOCK_SLIME_BLOCK_BREAK, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
             for(int i = 0; i < 30; i++){
-                this.world.addParticle(ParticleTypes.ITEM_SLIME, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+                this.world.addParticle(ParticleTypes.ITEM_SLIME, (pos.getX()-1.0f)+(3.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-1.0f)+(3.0f*random2.nextDouble()), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
             }
         }
         if(eventId == 59747841){    // teleport

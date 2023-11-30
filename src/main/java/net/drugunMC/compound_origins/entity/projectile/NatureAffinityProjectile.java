@@ -23,6 +23,12 @@ import java.util.List;
 import static net.minecraft.block.Block.getRawIdFromState;
 
 public class NatureAffinityProjectile extends ThrownItemEntity {
+
+
+    private int lifetime = 30;
+
+
+
     public NatureAffinityProjectile(EntityType<? extends NatureAffinityProjectile> entityType, World world) {
         super(entityType, world);
     }
@@ -41,6 +47,19 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
 
 
 
+    @Override
+    public void tick() {
+        super.tick();
+        if(lifetime <= 0){
+            if(!this.getWorld().isClient){
+                this.explode();
+            }
+        }
+        else{
+            lifetime--;
+        }
+    }
+
 
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
@@ -51,36 +70,40 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         if (!this.getWorld().isClient) {
-            this.getWorld().syncWorldEvent(null, 59747840, this.getBlockPos(), 0);
-            Entity owner = this.getEffectCause();
-            Box box = this.getBoundingBox().expand(1.5, 1.5, 1.5);
-            List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
-            if (!list.isEmpty()) {
-                for (LivingEntity e: list) {
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 4, 1), owner);
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 20 * 10, 2), owner);
-                    if (e.getGroup() == EntityGroup.UNDEAD){
-                        e.damage(getWorld().getDamageSources().thrown(this, owner), 10);
-                    }
-                }
-
-            }
-            Box box2 = this.getBoundingBox().expand(3.0, 2.0, 3.0);
-            List<LivingEntity> list2 = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box2);
-            if (!list2.isEmpty()) {
-                for (LivingEntity e: list2) {
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 20 * 6, 0), owner);
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 6, 1), owner);
-                    e.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 20 * 7, 1), owner);
-                    if (e.getGroup() == EntityGroup.UNDEAD){
-                        e.damage(getWorld().getDamageSources().thrown(this, owner), 5);
-                    }
-                }
-
-            }
-            this.discard();
+            this.explode();
         }
 
+    }
+
+    private void explode(){
+        this.getWorld().syncWorldEvent(null, 59747840, this.getBlockPos(), 0);
+        Entity owner = this.getEffectCause();
+        Box box = this.getBoundingBox().expand(1.5, 1.5, 1.5);
+        List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
+        if (!list.isEmpty()) {
+            for (LivingEntity e: list) {
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 20 * 4, 1), owner);
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 20 * 10, 2), owner);
+                if (e.getGroup() == EntityGroup.UNDEAD){
+                    e.damage(getWorld().getDamageSources().thrown(this, owner), 10);
+                }
+            }
+
+        }
+        Box box2 = this.getBoundingBox().expand(3.0, 2.0, 3.0);
+        List<LivingEntity> list2 = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box2);
+        if (!list2.isEmpty()) {
+            for (LivingEntity e: list2) {
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 0), owner);
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 1), owner);
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 120, 1), owner);
+                if (e.getGroup() == EntityGroup.UNDEAD){
+                    e.damage(getWorld().getDamageSources().thrown(this, owner), 5);
+                }
+            }
+
+        }
+        this.discard();
     }
 
 }
