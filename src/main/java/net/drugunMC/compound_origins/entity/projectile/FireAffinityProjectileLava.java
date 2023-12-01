@@ -22,6 +22,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class FireAffinityProjectileLava extends ThrownItemEntity {
+
+
+    private int lifetime = 80;
+
+
+
     public FireAffinityProjectileLava(EntityType<? extends net.drugunMC.compound_origins.entity.projectile.FireAffinityProjectileLava> entityType, World world) {
         super(entityType, world);
     }
@@ -40,6 +46,19 @@ public class FireAffinityProjectileLava extends ThrownItemEntity {
 
 
 
+    @Override
+    public void tick() {
+        super.tick();
+        if(lifetime <= 0){
+            if(!this.getWorld().isClient){
+                this.explode();
+            }
+        }
+        else{
+            lifetime--;
+        }
+    }
+
 
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
@@ -50,27 +69,30 @@ public class FireAffinityProjectileLava extends ThrownItemEntity {
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);
         if (!this.getWorld().isClient) {
-            BlockPos pos = this.getBlockPos();
-            BlockPos pos2;
-            World world = this.getWorld();
-            this.getWorld().syncWorldEvent(null, 59747844, pos, 0);
-            for(int i = -2; i <= 2; i++){
-                for(int j = -2; j <= 2; j++){
-                    for(int k = -2; k <= 2; k++){
-                        pos2 = pos.add(i, j, k);
-                        if(world.getBlockState(pos2).isAir() && world.getBlockState(pos2.down()).isFullCube(world, pos2.down())){
-                            this.getWorld().setBlockState(pos2, Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_lava")).getDefaultState());
-                        }
-                    }
-                }
-            }
-            this.discard();
+            this.explode();
         }
 
 
 
     }
 
+    private void explode(){
+        BlockPos pos = this.getBlockPos();
+        BlockPos pos2;
+        World world = this.getWorld();
+        this.getWorld().syncWorldEvent(null, 59747844, pos, 0);
+        for(int i = -2; i <= 2; i++){
+            for(int j = -2; j <= 2; j++){
+                for(int k = -2; k <= 2; k++){
+                    pos2 = pos.add(i, j, k);
+                    if(world.getBlockState(pos2).isAir() && world.getBlockState(pos2.down()).isFullCube(world, pos2.down())){
+                        this.getWorld().setBlockState(pos2, Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_lava")).getDefaultState());
+                    }
+                }
+            }
+        }
+        this.discard();
+    }
 
 
 

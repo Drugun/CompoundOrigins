@@ -18,8 +18,8 @@ public class TemporaryLavaBlock extends TemporaryBlock {
     private static final VoxelShape SHAPE_EMPTY = VoxelShapes.empty();
 
 
-    public TemporaryLavaBlock(Settings settings, int baseTicksToRemove, int maxExtraTicks, int damagePerTick) {
-        super(settings, baseTicksToRemove, maxExtraTicks);
+    public TemporaryLavaBlock(Settings settings, int baseTicksToRemove, int maxExtraTicks, int chainBreakTicks, int damagePerTick) {
+        super(settings, baseTicksToRemove, maxExtraTicks, chainBreakTicks);
         damage = damagePerTick;
 
     }

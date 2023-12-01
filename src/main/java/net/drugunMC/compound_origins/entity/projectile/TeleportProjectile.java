@@ -23,7 +23,7 @@ import net.minecraft.world.World;
 
 public class TeleportProjectile extends ThrownItemEntity {
 
-    private int lifetime = 200;
+    private int lifetime = 40;
     private static final double maxDist = 20;
     private static final int nominalCost = 5;
 

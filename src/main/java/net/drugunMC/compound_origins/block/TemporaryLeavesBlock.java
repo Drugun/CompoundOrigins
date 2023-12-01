@@ -16,8 +16,8 @@ public class TemporaryLeavesBlock extends TemporaryBlock {
     private static final VoxelShape SHAPE_EMPTY = VoxelShapes.empty();
 
 
-    public TemporaryLeavesBlock(Settings settings, int baseTicksToRemove, int maxExtraTicks) {
-        super(settings, baseTicksToRemove, maxExtraTicks);
+    public TemporaryLeavesBlock(Settings settings, int baseTicksToRemove, int maxExtraTicks, int chainBreakTicks) {
+        super(settings, baseTicksToRemove, maxExtraTicks, chainBreakTicks);
 
     }
 
