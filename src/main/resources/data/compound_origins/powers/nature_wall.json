@@ -4,78 +4,28 @@
     "key": "key.origins.primary_active",
     "continuous": false
   },
-  "cooldown": 5,
   "condition": {
     "type": "origins:resource",
     "resource": "compound_origins:nature_resource",
     "comparison": ">=",
-    "compare_to": 50
+    "compare_to": 30
   },
   "entity_action": {
-    "type": "origins:raycast",
-    "distance": 20,
-    "block": true,
-    "entity": false,
-    "shape_type": "collider",
-    "fluid_handling": "none",
-    "block_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:delay",
-          "ticks": 5,
-          "action": {
-            "type": "origins:area_of_effect",
-            "radius": 1,
-            "shape": "cube",
-            "block_action": {
-              "type": "origins:set_block",
-              "block": "compound_origins:temporary_leaves"
-            },
-            "block_condition": {
-              "type": "origins:block",
-              "block": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:area_of_effect",
-            "radius": 2,
-            "shape": "cube",
-            "block_action": {
-              "type": "origins:set_block",
-              "block": "compound_origins:temporary_leaves"
-            },
-            "block_condition": {
-              "type": "origins:block",
-              "block": "minecraft:air"
-            }
-          }
-        }
-      ]
-    },
-    "hit_action": {
-      "type": "origins:and",
-      "actions":[
-        {
-          "type": "origins:change_resource",
-          "resource": "compound_origins:nature_resource",
-          "change": -50
-        },
-        {
-          "type": "origins:swing_hand",
-          "hand": "MAIN_HAND"
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.evoker.cast_spell",
-          "volume": 2.0
-        }
-      ]
-    }
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "compound_origins:nature_resource",
+        "change": -30
+      },
+      {
+        "type": "apugli:fire_projectile",
+        "entity_type": "compound_origins:affinity_nature_projectile_wall",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "speed": 1.0,
+        "divergence": 1.0
+      }
+    ]
   },
   "badges": [
     {

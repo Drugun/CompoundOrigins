@@ -31,7 +31,7 @@ public abstract class WorldRendererMixin {
 
 
 
-    // Added events have IDs starting at 59747840
+    // Events added by Compound Origins have IDs starting at 59747840
 
     @Inject(method = "processWorldEvent", at = @At("TAIL"))
     public void CompoundOriginsProcessWorldEventInject(int eventId, BlockPos pos, int data, CallbackInfo ci){
@@ -71,6 +71,19 @@ public abstract class WorldRendererMixin {
                 this.world.addParticle(ParticleTypes.SMOKE, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 0.3f*(random2.nextDouble()-0.5f), 0.3f*(random2.nextDouble()-0.5f), 0.3f*(random2.nextDouble()-0.5f));
             }
         }
+        if(eventId == 59747846){    // ice wall projectile
+            this.world.playSoundAtBlockCenter(pos, SoundEvents.ENTITY_EVOKER_CAST_SPELL, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
+            for(int i = 0; i < 30; i++){
+                this.world.addParticle(ParticleTypes.SNOWFLAKE, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+            }
+        }
+        if(eventId == 59747847){    // leaf wall projectile
+            this.world.playSoundAtBlockCenter(pos, SoundEvents.BLOCK_MANGROVE_ROOTS_PLACE, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
+            for(int i = 0; i < 8; i++){
+                this.world.addParticle(ParticleTypes.CHERRY_LEAVES, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+            }
+        }
+
     }
 
 

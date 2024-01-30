@@ -21,9 +21,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class TeleportProjectile extends ThrownItemEntity {
+public class TeleportProjectile extends TimedProjectile {
 
-    private int lifetime = 40;
     private static final double maxDist = 20;
     private static final int nominalCost = 5;
 
@@ -52,20 +51,16 @@ public class TeleportProjectile extends ThrownItemEntity {
 
 
 
+
     @Override
-    public void tick() {
-        super.tick();
-        if(lifetime <= 0){
-            if(!this.getWorld().isClient){
-                this.discard();
-            }
-        }
-        else{
-            lifetime--;
-        }
+    public int getDefaultLifetime() {
+        return 40;
     }
 
-
+    @Override
+    public void onTimeout() {
+        this.discard();
+    }
 
     protected void onCollision(HitResult hitResult) {
         super.onCollision(hitResult);

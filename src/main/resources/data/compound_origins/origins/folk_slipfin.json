@@ -6,7 +6,7 @@
         "compound_origins:increased_hunger_folk"
     ],
     "icon": {
-        "item": "minecraft:end_portal_frame"
+        "item": "minecraft:tropical_fish"
     },
     "order": 6,
     "impact": 2,

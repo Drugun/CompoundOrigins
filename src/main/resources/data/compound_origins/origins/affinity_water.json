@@ -8,7 +8,7 @@
         "compound_origins:water_resource_regen"
     ],
     "icon": {
-        "item": "minecraft:tropical_fish"
+        "item": "minecraft:ice"
     },
     "order": 5,
     "impact": 2,

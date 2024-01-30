@@ -22,10 +22,9 @@ import java.util.List;
 
 import static net.minecraft.block.Block.getRawIdFromState;
 
-public class NatureAffinityProjectile extends ThrownItemEntity {
+public class NatureAffinityProjectile extends TimedProjectile {
 
 
-    private int lifetime = 30;
 
 
 
@@ -47,20 +46,17 @@ public class NatureAffinityProjectile extends ThrownItemEntity {
 
 
 
+
+
     @Override
-    public void tick() {
-        super.tick();
-        if(lifetime <= 0){
-            if(!this.getWorld().isClient){
-                this.explode();
-            }
-        }
-        else{
-            lifetime--;
-        }
+    public int getDefaultLifetime() {
+        return 30;
     }
 
-
+    @Override
+    public void onTimeout() {
+        this.explode();
+    }
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
         super.onEntityHit(entityHitResult);

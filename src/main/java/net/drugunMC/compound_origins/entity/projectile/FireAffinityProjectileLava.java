@@ -21,10 +21,10 @@ import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class FireAffinityProjectileLava extends ThrownItemEntity {
+public class FireAffinityProjectileLava extends BlockSpawningProjectile {
 
 
-    private int lifetime = 80;
+
 
 
 
@@ -47,36 +47,7 @@ public class FireAffinityProjectileLava extends ThrownItemEntity {
 
 
     @Override
-    public void tick() {
-        super.tick();
-        if(lifetime <= 0){
-            if(!this.getWorld().isClient){
-                this.explode();
-            }
-        }
-        else{
-            lifetime--;
-        }
-    }
-
-
-
-    protected void onEntityHit(EntityHitResult entityHitResult) {
-        super.onEntityHit(entityHitResult);
-
-    }
-
-    protected void onCollision(HitResult hitResult) {
-        super.onCollision(hitResult);
-        if (!this.getWorld().isClient) {
-            this.explode();
-        }
-
-
-
-    }
-
-    private void explode(){
+    public void nextPhase() {
         BlockPos pos = this.getBlockPos();
         BlockPos pos2;
         World world = this.getWorld();
@@ -94,7 +65,10 @@ public class FireAffinityProjectileLava extends ThrownItemEntity {
         this.discard();
     }
 
-
+    @Override
+    public int getDefaultLifetime() {
+        return 80;
+    }
 
 
 }

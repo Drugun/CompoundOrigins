@@ -3,6 +3,7 @@
     "compound_origins:temporary_cobblestone",
     "compound_origins:temporary_leaves",
     "compound_origins:temporary_ice",
-    "compound_origins:temporary_lava"
+    "compound_origins:temporary_lava",
+    "compound_origins:temporary_roots"
   ]
 }

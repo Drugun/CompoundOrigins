@@ -13,10 +13,9 @@ import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.world.World;
 
-public class FireAffinityProjectile extends ThrownItemEntity {
+public class FireAffinityProjectile extends TimedProjectile {
 
 
-    private int lifetime = 60;
 
 
 
@@ -38,20 +37,16 @@ public class FireAffinityProjectile extends ThrownItemEntity {
 
 
 
+
     @Override
-    public void tick() {
-        super.tick();
-        if(lifetime <= 0){
-            if(!this.getWorld().isClient){
-                this.explode();
-            }
-        }
-        else{
-            lifetime--;
-        }
+    public int getDefaultLifetime() {
+        return 60;
     }
 
-
+    @Override
+    public void onTimeout() {
+        this.explode();
+    }
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
         super.onEntityHit(entityHitResult);

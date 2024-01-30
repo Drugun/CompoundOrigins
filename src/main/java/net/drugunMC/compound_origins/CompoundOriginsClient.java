@@ -12,6 +12,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 
 import static net.drugunMC.compound_origins.CompoundOrigins.TEMPORARY_LEAVES;
+import static net.drugunMC.compound_origins.CompoundOrigins.TEMPORARY_ROOTS;
 
 public class CompoundOriginsClient implements ClientModInitializer {
 
@@ -35,10 +36,14 @@ public class CompoundOriginsClient implements ClientModInitializer {
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_EARTH_PROJECTILE, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_NATURE_PROJECTILE, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_WATER_PROJECTILE, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_WATER_PROJECTILE_WALL, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_EARTH_PROJECTILE_WALL, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(CompoundOrigins.AFFINITY_NATURE_PROJECTILE_WALL, FlyingItemEntityRenderer::new);
 		EntityRendererRegistry.register(CompoundOrigins.TELEPORT_PROJECTILE, FlyingItemEntityRenderer::new);
 
 
 		BlockRenderLayerMap.INSTANCE.putBlock(TEMPORARY_LEAVES, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(TEMPORARY_ROOTS, RenderLayer.getCutout());
 
 
 		ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> {

@@ -39,7 +39,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Fire
     - Fire/lava immunity
     - Freeze in cold water
-    - Freeze in dark in cold biomes
+    - Freeze in the dark when in cold biomes
     - 1 of:
       - Incendiary fireball (active ability)
       - Lava spit (active ability)
@@ -77,7 +77,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Increased armour
   - Decreased food consumption
   - Increased regeneration
-  - Slow passive regen
+  - Slow passive health regeneration
   - Increased attack speed
   - Reduced knockback
   - Can eat grass and leaves
