@@ -3,12 +3,12 @@
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "compound_origins:lightning_resource",
+        "resource": "compound_origins:air_resource",
         "change": -3
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "compound_origins:lightning_resource",
+        "resource": "compound_origins:air_resource",
         "comparison": "<",
         "compare_to": 150
     },

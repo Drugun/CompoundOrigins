@@ -2,7 +2,7 @@
     "type": "origins:active_self",
     "condition": {
         "type": "origins:resource",
-        "resource": "compound_origins:lightning_resource",
+        "resource": "compound_origins:air_resource",
         "comparison": ">=",
         "compare_to": 50
     },
@@ -24,7 +24,7 @@
             "actions":[
                 {
                     "type": "origins:change_resource",
-                    "resource": "compound_origins:lightning_resource",
+                    "resource": "compound_origins:air_resource",
                     "change": -50
                 },
                 {

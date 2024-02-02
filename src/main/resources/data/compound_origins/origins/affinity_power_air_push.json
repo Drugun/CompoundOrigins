@@ -1,6 +1,6 @@
 {
 	"powers": [
-        "compound_origins:lightning_push_area"
+        "compound_origins:air_push_area"
     ],
     "icon": {
         "item": "minecraft:glass"

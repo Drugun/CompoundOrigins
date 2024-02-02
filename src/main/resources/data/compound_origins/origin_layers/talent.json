@@ -61,11 +61,11 @@
         {
             "condition": {
                 "type": "origins:origin",
-                "origin": "compound_origins:affinity_lightning",
+                "origin": "compound_origins:affinity_air",
                 "layer": "compound_origins:affinity"
             },
             "origins": [
-                "compound_origins:talent_cooldown_lightning"
+                "compound_origins:talent_cooldown_air"
             ]
         }
     ],

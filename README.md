@@ -56,7 +56,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Longer negative status effects
     - 1 of:
       - Stone projectiles (active ability)
-      - Summon stone blocks (active ability)
+      - Summon stone wall (active ability)
   - Air
     - Lightning immunity
     - Melee retaliation
@@ -71,7 +71,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
     - Increased exhaustion when mining underground
     - 1 of:
       - Poison projectile (active ability)
-      - Summon wall of leaves (active ability)
+      - Summon wall of roots (active ability)
 - Talent:
   - Increased max health
   - Increased armour

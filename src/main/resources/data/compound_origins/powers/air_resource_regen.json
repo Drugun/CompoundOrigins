@@ -3,8 +3,8 @@
     "type": "origins:action_over_time",
     "entity_action": {
         "type": "origins:change_resource",
-        "resource": "compound_origins:lightning_resource",
-        "change": 2
+        "resource": "compound_origins:air_resource",
+        "change": 10
     },
     "interval": 20
 }

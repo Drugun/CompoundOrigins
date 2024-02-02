@@ -1,6 +1,6 @@
 {
     "powers": [
-        "compound_origins:lightning_less_resource_regen"
+        "compound_origins:air_less_resource_regen"
     ],
     "icon": {
         "item": "minecraft:clock"

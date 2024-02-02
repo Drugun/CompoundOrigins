@@ -15,12 +15,12 @@
         {
             "condition": {
                 "type": "origins:origin",
-                "origin": "compound_origins:affinity_lightning",
+                "origin": "compound_origins:affinity_air",
                 "layer": "compound_origins:affinity"
             },
             "origins": [
-                "compound_origins:affinity_power_lightning_strike",
-                "compound_origins:affinity_power_lightning_push"
+                "compound_origins:affinity_power_air_lightning",
+                "compound_origins:affinity_power_air_push"
             ]
         },
         {

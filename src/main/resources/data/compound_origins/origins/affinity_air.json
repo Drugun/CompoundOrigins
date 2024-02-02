@@ -4,8 +4,8 @@
         "compound_origins:melee_retaliation",
         "compound_origins:slower_swimming",
         "compound_origins:water_exhaustion",
-        "compound_origins:lightning_resource",
-        "compound_origins:lightning_resource_regen"
+        "compound_origins:air_resource",
+        "compound_origins:air_resource_regen"
     ],
     "icon": {
         "item": "minecraft:glass"

@@ -69,8 +69,8 @@
   "origin.compound_origins.affinity_nature.name": "Nature",
   "origin.compound_origins.affinity_nature.description": "You overflow with life and growth.",
 
-  "origin.compound_origins.affinity_lightning.name": "Air",
-  "origin.compound_origins.affinity_lightning.description": "The skies heed your call.",
+  "origin.compound_origins.affinity_air.name": "Air",
+  "origin.compound_origins.affinity_air.description": "The skies heed your call.",
 
 
 
@@ -86,11 +86,11 @@
   "origin.compound_origins.affinity_power_earth_wall.name": "Stone wall",
   "origin.compound_origins.affinity_power_earth_wall.description": "",
 
-  "origin.compound_origins.affinity_power_lightning_strike.name": "Lightning strike",
-  "origin.compound_origins.affinity_power_lightning_strike.description": "",
+  "origin.compound_origins.affinity_power_air_lightning.name": "Lightning strike",
+  "origin.compound_origins.affinity_power_air_lightning.description": "",
 
-  "origin.compound_origins.affinity_power_lightning_push.name": "Gale",
-  "origin.compound_origins.affinity_power_lightning_push.description": "",
+  "origin.compound_origins.affinity_power_air_push.name": "Gale",
+  "origin.compound_origins.affinity_power_air_push.description": "",
 
   "origin.compound_origins.affinity_power_nature_poisonball.name": "Poison spit",
   "origin.compound_origins.affinity_power_nature_poisonball.description": "",
@@ -139,8 +139,8 @@
   "origin.compound_origins.talent_cooldown_water.name": "Faster recharge",
   "origin.compound_origins.talent_cooldown_water.description": "Your affinity-related active abilities recharge faster.",
 
-  "origin.compound_origins.talent_cooldown_lightning.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_lightning.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_air.name": "Faster recharge",
+  "origin.compound_origins.talent_cooldown_air.description": "Your affinity-related active abilities recharge faster.",
 
   "origin.compound_origins.talent_cooldown_nature.name": "Faster recharge",
   "origin.compound_origins.talent_cooldown_nature.description": "Your affinity-related active abilities recharge faster.",
@@ -180,8 +180,8 @@
   "origin.compound_origins.defect_cooldown_water.name": "Slower recharge",
   "origin.compound_origins.defect_cooldown_water.description": "Your affinity-related active abilities recharge slower.",
 
-  "origin.compound_origins.defect_cooldown_lightning.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_lightning.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_air.name": "Slower recharge",
+  "origin.compound_origins.defect_cooldown_air.description": "Your affinity-related active abilities recharge slower.",
 
   "origin.compound_origins.defect_cooldown_nature.name": "Slower recharge",
   "origin.compound_origins.defect_cooldown_nature.description": "Your affinity-related active abilities recharge slower.",
@@ -339,11 +339,11 @@
   "power.compound_origins.lava.name": "Lava spit",
   "power.compound_origins.lava.description": "Launch a projectile that temporarily covers an area with lava.",
 
-  "power.compound_origins.lightning_push.name": "Gust",
-  "power.compound_origins.lightning_push.description": "Summon a strong gust of air to push a foe away.",
+  "power.compound_origins.air_push.name": "Gust",
+  "power.compound_origins.air_push.description": "Summon a strong gust of air to push a foe away.",
 
-  "power.compound_origins.lightning_push_area.name": "Gale",
-  "power.compound_origins.lightning_push_area.description": "Summon a strong gust of air to push nearby foes away.",
+  "power.compound_origins.air_push_area.name": "Gale",
+  "power.compound_origins.air_push_area.description": "Summon a strong gust of air to push nearby foes away.",
 
   "power.compound_origins.nature_wall.name": "Wild growth",
   "power.compound_origins.nature_wall.description": "Sprout large leafy bushes to temporarily block or create paths.",
