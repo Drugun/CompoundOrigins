@@ -32,11 +32,11 @@ public class CompoundOrigins implements ModInitializer {
 	public static final CompoundOriginsConfig CONFIG = CompoundOriginsConfig.createAndLoad();
 
 
-	public static final TemporaryBlock TEMPORARY_COBBLESTONE = new TemporaryBlock(FabricBlockSettings.create().hardness(15.0F).resistance(6.0F).dropsNothing(), 300, 200, 4);
-	public static final TemporaryBlock TEMPORARY_ICE = new TemporaryBlock(FabricBlockSettings.create().hardness(2.0F).resistance(4.0F).dropsNothing().slipperiness(0.98F).sounds(BlockSoundGroup.GLASS), 300, 200, 4);
-	public static final TemporaryLavaBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing().luminance(15).solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200, 4, 2);
-	public static final TemporaryLeavesBlock TEMPORARY_LEAVES = new TemporaryLeavesBlock(FabricBlockSettings.create().hardness(1.0F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.GRASS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200, 4);
-	public static final TemporaryRootsBlock TEMPORARY_ROOTS = new TemporaryRootsBlock(FabricBlockSettings.create().hardness(1.0F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.MANGROVE_ROOTS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 200, 4);
+	public static final TemporaryBlock TEMPORARY_COBBLESTONE = new TemporaryBlock(FabricBlockSettings.create().hardness(4.0F).resistance(6.0F).dropsNothing(), 300, 60, 4);
+	public static final TemporaryBlock TEMPORARY_ICE = new TemporaryBlock(FabricBlockSettings.create().strength(0.8F).dropsNothing().slipperiness(0.98F).sounds(BlockSoundGroup.GLASS), 300, 60, 4);
+	public static final TemporaryLavaBlock TEMPORARY_LAVA = new TemporaryLavaBlock(FabricBlockSettings.create().hardness(300.0F).resistance(6.0F).dropsNothing().sounds(BlockSoundGroup.HONEY).luminance(15).solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 60, 4, 2);
+	public static final TemporaryLeavesBlock TEMPORARY_LEAVES = new TemporaryLeavesBlock(FabricBlockSettings.create().hardness(0.3F).resistance(3.0F).dropsNothing().sounds(BlockSoundGroup.GRASS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 60, 4);
+	public static final TemporaryRootsBlock TEMPORARY_ROOTS = new TemporaryRootsBlock(FabricBlockSettings.create().strength(0.9F).dropsNothing().sounds(BlockSoundGroup.MANGROVE_ROOTS).nonOpaque().burnable().solidBlock(Blocks::never).blockVision(Blocks::never).suffocates(Blocks::never), 300, 60, 4);
 
 	public static final EntityType<FireAffinityProjectile> AFFINITY_FIRE_PROJECTILE = FabricEntityTypeBuilder.<FireAffinityProjectile>create(SpawnGroup.MISC, FireAffinityProjectile::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();
 	public static final EntityType<FireAffinityProjectileLava> AFFINITY_FIRE_PROJECTILE_LAVA = FabricEntityTypeBuilder.<FireAffinityProjectileLava>create(SpawnGroup.MISC, FireAffinityProjectileLava::new).dimensions(EntityDimensions.fixed(0.25f, 0.25f)).trackRangeChunks(10).trackedUpdateRate(3).forceTrackedVelocityUpdates(true).build();

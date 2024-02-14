@@ -4,7 +4,7 @@
         "type": "origins:resource",
         "resource": "compound_origins:air_resource",
         "comparison": ">=",
-        "compare_to": 100
+        "compare_to": 70
     },
     "entity_action":{
         "type": "origins:and",
@@ -28,7 +28,7 @@
             {
                 "type": "origins:change_resource",
                 "resource": "compound_origins:air_resource",
-                "change": -100
+                "change": -70
             },
             {
                 "type": "origins:swing_hand",

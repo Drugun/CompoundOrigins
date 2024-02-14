@@ -9,7 +9,7 @@
     },
     "condition": {
         "type": "origins:predicate",
-        "predicate": "compound_origins:random"
+        "predicate": "compound_origins:random_dodge"
     },
     "modifier": {
         "name": "Projectile dodge",

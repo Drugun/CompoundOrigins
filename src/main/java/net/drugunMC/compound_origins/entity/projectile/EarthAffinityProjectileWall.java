@@ -40,7 +40,7 @@ public class EarthAffinityProjectileWall extends BlockSpawningProjectile {
     public void nextPhase(){
         if(phase == 1){
             World world = this.getWorld();
-            world.syncWorldEvent(null, 59747846, impactPos, 0);
+            world.syncWorldEvent(null, 59747848, impactPos, 0);
             //impactPos = dropPos(impactPos, 3);
 
             makePillar(4, dropPos(impactPos, 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);

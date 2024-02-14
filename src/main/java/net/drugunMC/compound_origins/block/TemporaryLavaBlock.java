@@ -45,7 +45,7 @@ public class TemporaryLavaBlock extends TemporaryBlock {
     }
 
     public float getVelocityMultiplier(){
-        return 0.7f;
+        return 0.5f;
     }
 
     public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity){

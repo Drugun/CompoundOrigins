@@ -8,7 +8,7 @@
     "type": "origins:resource",
     "resource": "compound_origins:water_resource",
     "comparison": ">=",
-    "compare_to": 100
+    "compare_to": 70
   },
   "entity_action": {
     "type": "origins:and",
@@ -16,7 +16,7 @@
       {
         "type": "origins:change_resource",
         "resource": "compound_origins:water_resource",
-        "change": -100
+        "change": -70
       },
       {
         "type": "apugli:fire_projectile",

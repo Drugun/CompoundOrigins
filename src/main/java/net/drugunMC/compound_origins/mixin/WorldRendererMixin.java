@@ -38,8 +38,8 @@ public abstract class WorldRendererMixin {
         Random random2 = this.world.random;
         if(eventId == 59747840){    // poison projectile
             this.world.playSoundAtBlockCenter(pos, SoundEvents.BLOCK_SLIME_BLOCK_BREAK, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
-            for(int i = 0; i < 30; i++){
-                this.world.addParticle(ParticleTypes.ITEM_SLIME, (pos.getX()-1.0f)+(3.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-1.0f)+(3.0f*random2.nextDouble()), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+            for(int i = 0; i < 40; i++){
+                this.world.addParticle(ParticleTypes.ITEM_SLIME, (pos.getX()-2.0f)+(5.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-2.0f)+(5.0f*random2.nextDouble()), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
             }
         }
         if(eventId == 59747841){    // teleport
@@ -74,13 +74,19 @@ public abstract class WorldRendererMixin {
         if(eventId == 59747846){    // ice wall projectile
             this.world.playSoundAtBlockCenter(pos, SoundEvents.ENTITY_EVOKER_CAST_SPELL, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
             for(int i = 0; i < 30; i++){
-                this.world.addParticle(ParticleTypes.SNOWFLAKE, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+                this.world.addParticle(ParticleTypes.SNOWFLAKE, (pos.getX()-2.0f)+(5.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-2.0f)+(5.0f*random2.nextDouble()), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
             }
         }
         if(eventId == 59747847){    // leaf wall projectile
             this.world.playSoundAtBlockCenter(pos, SoundEvents.BLOCK_MANGROVE_ROOTS_PLACE, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
-            for(int i = 0; i < 8; i++){
-                this.world.addParticle(ParticleTypes.CHERRY_LEAVES, pos.getX()+random2.nextDouble(), pos.getY()+random2.nextDouble(), pos.getZ()+random2.nextDouble(), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+            for(int i = 0; i < 25; i++){
+                this.world.addParticle(ParticleTypes.HAPPY_VILLAGER, (pos.getX()-1.0f)+(3.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-1.0f)+(3.0f*random2.nextDouble()), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f), 1.0f*(random2.nextDouble()-0.5f));
+            }
+        }
+        if(eventId == 59747848){    // rock wall projectile
+            this.world.playSoundAtBlockCenter(pos, SoundEvents.ENTITY_EVOKER_CAST_SPELL, SoundCategory.PLAYERS, 1.0f, 1.0f, false);
+            for(int i = 0; i < 20; i++){
+                this.world.addParticle(ParticleTypes.SMOKE, (pos.getX()-1.0f)+(3.0f*random2.nextDouble()), (pos.getY()-1.0f)+(3.0f*random2.nextDouble()), (pos.getZ()-1.0f)+(3.0f*random2.nextDouble()), 0.3f*(random2.nextDouble()-0.5f), 0.3f*(random2.nextDouble()-0.5f), 0.3f*(random2.nextDouble()-0.5f));
             }
         }
 

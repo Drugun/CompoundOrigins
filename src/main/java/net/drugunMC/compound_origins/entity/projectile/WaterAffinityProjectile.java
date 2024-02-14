@@ -69,7 +69,7 @@ public class WaterAffinityProjectile extends TimedProjectile {
         List<LivingEntity> list = this.getWorld().getNonSpectatingEntities(LivingEntity.class, box);
         if (!list.isEmpty()) {
             for (LivingEntity e: list) {
-                e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 110, 4), owner);
+                e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 120, 4), owner);
             }
 
         }

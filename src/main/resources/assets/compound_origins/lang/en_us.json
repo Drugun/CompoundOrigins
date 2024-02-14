@@ -346,10 +346,10 @@
   "power.compound_origins.air_push_area.description": "Summon a strong gust of air to push nearby foes away.",
 
   "power.compound_origins.nature_wall.name": "Wild growth",
-  "power.compound_origins.nature_wall.description": "Sprout large leafy bushes to temporarily block or create paths.",
+  "power.compound_origins.nature_wall.description": "Sprout tangled roots to temporarily block or create paths.",
 
   "power.compound_origins.stone_wall.name": "Stone wall",
-  "power.compound_origins.stone_wall.description": "You can launch stone and clay to temporarily block or create paths.",
+  "power.compound_origins.stone_wall.description": "Form a stone wall to temporarily block foes.",
 
   "power.compound_origins.water_wall.name": "Ice wall",
   "power.compound_origins.water_wall.description": "You can condense and freeze moisture into a temporary chunk of ice to block or create paths.",
@@ -358,7 +358,7 @@
   "power.compound_origins.teleport.description": "Teleport to the targeted position. 20 block range.",
 
   "power.compound_origins.dodge.name": "Swift reflexes",
-  "power.compound_origins.dodge.description": "You have a 75% chance to avoid incoming projectile damage."
+  "power.compound_origins.dodge.description": "You have an 80% chance to avoid incoming projectile damage."
 
 
 

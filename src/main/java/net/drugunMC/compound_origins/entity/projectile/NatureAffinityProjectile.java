@@ -92,7 +92,6 @@ public class NatureAffinityProjectile extends TimedProjectile {
             for (LivingEntity e: list2) {
                 e.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 0), owner);
                 e.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 1), owner);
-                e.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 120, 1), owner);
                 if (e.getGroup() == EntityGroup.UNDEAD){
                     e.damage(getWorld().getDamageSources().thrown(this, owner), 5);
                 }
