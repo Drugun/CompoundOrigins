@@ -15,7 +15,8 @@
                 "compound_origins:talent_healing",
                 "compound_origins:talent_knockback",
                 "compound_origins:talent_regen",
-                "compound_origins:talent_superstomach"
+                "compound_origins:talent_superstomach",
+                "compound_origins:talent_none"
             ]
         },
         {

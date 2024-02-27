@@ -2,7 +2,7 @@
     "type": "origins:action_on_block_break",
     "entity_action": {
         "type": "origins:exhaust",
-        "amount": 0.245
+        "amount": 0.995
     },
     "only_when_harvested": false,
     "condition": {
@@ -17,6 +17,11 @@
                 "dimension": "minecraft:overworld"
             }
         ]
+    },
+    "block_condition": {
+        "type": "origins:height",
+        "comparison": "<",
+        "compare_to": 60
     },
     "badges": [
         {

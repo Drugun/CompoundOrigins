@@ -21,7 +21,8 @@
   "layer.compound_origins.folk.name": "Folk",
   "layer.compound_origins.folk_variety.name": "Folk variety",
   "layer.compound_origins.talent.name": "Talent",
-  "layer.compound_origins.defect.name": "Defect",
+  "layer.compound_origins.defect.name": "Defect A",
+  "layer.compound_origins.defect_b.name": "Defect B",
 
 
   "origin.compound_origins.custom_base.name": "Custom Origin",
@@ -145,22 +146,40 @@
   "origin.compound_origins.talent_cooldown_nature.name": "Faster recharge",
   "origin.compound_origins.talent_cooldown_nature.description": "Your affinity-related active abilities recharge faster.",
 
+  "origin.compound_origins.talent_none.name": "None",
+  "origin.compound_origins.talent_none.description": "No talent. Picking this allows choosing one less defect.",
+
 
 
   "origin.compound_origins.defect_armour.name": "Fragile",
   "origin.compound_origins.defect_armour.description": "You have reduced armour.",
 
+  "origin.compound_origins.defect_armour_b.name": "Fragile",
+  "origin.compound_origins.defect_armour_b.description": "You have reduced armour.",
+
   "origin.compound_origins.defect_attack_speed.name": "Clumsy",
   "origin.compound_origins.defect_attack_speed.description": "You have reduced attack speed.",
+
+  "origin.compound_origins.defect_attack_speed_b.name": "Clumsy",
+  "origin.compound_origins.defect_attack_speed_b.description": "You have reduced attack speed.",
 
   "origin.compound_origins.defect_healing.name": "Unhealing",
   "origin.compound_origins.defect_healing.description": "All healing is reduced.",
 
+  "origin.compound_origins.defect_healing_b.name": "Unhealing",
+  "origin.compound_origins.defect_healing_b.description": "All healing is reduced.",
+
   "origin.compound_origins.defect_health.name": "Feeble",
   "origin.compound_origins.defect_health.description": "Your maximum health is decreased.",
 
+  "origin.compound_origins.defect_health_b.name": "Feeble",
+  "origin.compound_origins.defect_health_b.description": "Your maximum health is decreased.",
+
   "origin.compound_origins.defect_hunger.name": "Voracious",
   "origin.compound_origins.defect_hunger.description": "You get hungry faster.",
+
+  "origin.compound_origins.defect_hunger_b.name": "Voracious",
+  "origin.compound_origins.defect_hunger_b.description": "You get hungry faster.",
 
   "origin.compound_origins.defect_restricted_armour.name": "Nonconforming",
   "origin.compound_origins.defect_restricted_armour.description": "You cannot wear helmets and boots.",
@@ -202,7 +221,7 @@
   "power.compound_origins.cold_water_freezing.description": "When in water in a cold biome, you freeze.",
 
   "power.compound_origins.decreased_hunger.name": "Decreased hunger",
-  "power.compound_origins.decreased_hunger.description": "You get hungry 25% slower.",
+  "power.compound_origins.decreased_hunger.description": "You get hungry 30% slower.",
 
   "power.compound_origins.earth_shot.name": "Stone barrage",
   "power.compound_origins.earth_shot.description": "Unleash a barrage of rocks.",
@@ -235,7 +254,10 @@
   "power.compound_origins.increased_health.description": "You have +4 maximum health.",
 
   "power.compound_origins.increased_hunger.name": "Increased hunger",
-  "power.compound_origins.increased_hunger.description": "You get hungry 40% faster.",
+  "power.compound_origins.increased_hunger.description": "You get hungry 30% faster.",
+
+  "power.compound_origins.increased_hunger_b.name": "Increased hunger",
+  "power.compound_origins.increased_hunger_b.description": "You get hungry 30% faster.",
 
   "power.compound_origins.increased_hunger_folk.name": "High consumption",
   "power.compound_origins.increased_hunger_folk.description": "Food items replenish 50% less food points and saturation.",
@@ -244,7 +266,7 @@
   "power.compound_origins.increased_regen.description": "All healing is increased by 20%",
 
   "power.compound_origins.invisibility.name": "Invisibility",
-  "power.compound_origins.invisibility.description": "You can become invisible. However, armour and equipment is unaffected. Also, you move 20% slower while invisible.",
+  "power.compound_origins.invisibility.description": "You can become invisible. However, armour and equipment is unaffected. Also, you move 35% slower while invisible.",
 
   "power.compound_origins.lightning_immunity.name": "Lightning immunity",
   "power.compound_origins.lightning_immunity.description": "You do not take damage from lightning. The ensuing fire will still hurt you.",
@@ -277,22 +299,34 @@
   "power.compound_origins.passive_regen.description": "You replenish 1 health point every 7 seconds.",
 
   "power.compound_origins.reduced_armour.name": "Reduced armour",
-  "power.compound_origins.reduced_armour.description": "You have -4 armour.",
+  "power.compound_origins.reduced_armour.description": "You have -3 armour.",
+
+  "power.compound_origins.reduced_armour_b.name": "Reduced armour",
+  "power.compound_origins.reduced_armour_b.description": "You have -3 armour.",
 
   "power.compound_origins.reduced_attack_speed.name": "Slower attacks",
-  "power.compound_origins.reduced_attack_speed.description": "You attack 20% slower.",
+  "power.compound_origins.reduced_attack_speed.description": "You attack 15% slower.",
+
+  "power.compound_origins.reduced_attack_speed_b.name": "Slower attacks",
+  "power.compound_origins.reduced_attack_speed_b.description": "You attack 15% slower.",
 
   "power.compound_origins.reduced_fall_dmg.name": "Strong legs",
   "power.compound_origins.reduced_fall_dmg.description": "You take 4 less damage from falls.",
 
   "power.compound_origins.reduced_health.name": "Reduced health",
-  "power.compound_origins.reduced_health.description": "You have -6 maximum health.",
+  "power.compound_origins.reduced_health.description": "You have -4 maximum health.",
+
+  "power.compound_origins.reduced_health_b.name": "Reduced health",
+  "power.compound_origins.reduced_health_b.description": "You have -4 maximum health.",
 
   "power.compound_origins.reduced_knockback.name": "Reduced knockback",
   "power.compound_origins.reduced_knockback.description": "Attacks knock you away 50% less.",
 
   "power.compound_origins.reduced_regen.name": "Reduced regeneration",
-  "power.compound_origins.reduced_regen.description": "All healing is diminished by 30%.",
+  "power.compound_origins.reduced_regen.description": "All healing is diminished by 20%.",
+
+  "power.compound_origins.reduced_regen_b.name": "Reduced regeneration",
+  "power.compound_origins.reduced_regen_b.description": "All healing is diminished by 20%.",
 
   "power.compound_origins.restricted_armour.name": "Restricted armour",
   "power.compound_origins.restricted_armour.description": "You cannot wear helmets or boots.",
@@ -322,10 +356,10 @@
   "power.compound_origins.wings.description": "You have wings, making you capable of gliding and active flight.",
 
   "power.compound_origins.longer_wither.name": "Lifeblood",
-  "power.compound_origins.longer_wither.description": "Wither status effect lasts twice as long.",
+  "power.compound_origins.longer_wither.description": "Wither status effect lasts 2.5 times as long.",
 
   "power.compound_origins.mining_exhaustion.name": "Claustrophobic",
-  "power.compound_origins.mining_exhaustion.description": "Exhaustion from breaking blocks is increased 50x when not on the surface.",
+  "power.compound_origins.mining_exhaustion.description": "Exhaustion from breaking blocks is massively increased when underground.",
 
   "power.compound_origins.no_fire_extinguishing.name": "Evaporating",
   "power.compound_origins.no_fire_extinguishing.description": "You cannot extinguish fire by punching it.",

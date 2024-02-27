@@ -4,13 +4,13 @@
     "entity_action": {
         "type": "origins:change_resource",
         "resource": "compound_origins:water_resource",
-        "change": -3
+        "change": -5
     },
     "condition": {
         "type": "origins:resource",
         "resource": "compound_origins:water_resource",
         "comparison": "<",
-        "compare_to": 150
+        "compare_to": 140
     },
     "interval": 20
 }

@@ -3,13 +3,13 @@
 Compound origins is an addon for the Origins mod that adds a multitude of mini-origins across several layers. Players can choose one mini-origin from each layer to assemble their own custom origin.
 To assemble your own origin, choose "Custom origin" from the list of origins (in the vanilla origin layer).
 
-The origins are designed such that ones in the same category are similar in strength and utility. Using a custom origin won't make the game noticeably easier - the lack of negatives in folk options is counteracted by defects outweighing talents. 
+The origins are designed such that ones in the same category are similar in strength and utility. Using a custom origin shouldn't make the game noticeably easier. 
 This addon was designed to be used together with Origins Classes, so it's highly recommended to use that addon as well.
 
 
 ## Contents
 
-Players can choose one origin in each of the 4 categories (Folk, Affinity, Talent, Defect). Each Affinity also offers a choice between two different active abilities.
+Players choose one origin in each of the 5 categories (Folk, Affinity, Talent, Defect A, Defect B). Each Affinity also offers a choice between two different active abilities. Choosing no Talent allows a player to choose no Defect B.
 
 - Folk:
   - Dragonen
@@ -67,8 +67,8 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Nature
     - Can fertilise crops for free
     - Faster breaking of wood and plant blocks
-    - Longer wither status effect
-    - Increased exhaustion when mining underground
+    - Wither status effect prolonged
+    - Greatly increased exhaustion when mining underground
     - 1 of:
       - Poison projectile (active ability)
       - Summon wall of roots (active ability)
@@ -82,7 +82,7 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Reduced knockback
   - Can eat grass and leaves
   - Faster affinity ability recharge
-- Defect:
+- Defect A:
   - Carnivore
   - Herbivore
   - Reduced max health
@@ -91,6 +91,12 @@ Players can choose one origin in each of the 4 categories (Folk, Affinity, Talen
   - Reduced regeneration
   - Reduced attack speed
   - Slower affinity ability recharge
+- Defect B:
+  - Reduced max health
+  - Reduced armour
+  - Increased food consumption
+  - Reduced regeneration
+  - Reduced attack speed
 
 
 Orb of origins was given a recipe, making it possible to switch origins (can be disabled).

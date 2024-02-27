@@ -1,0 +1,11 @@
+{
+    "powers": [
+        "compound_origins:reduced_health_b"
+    ],
+    "icon": {
+        "item": "minecraft:glass_bottle"
+    },
+    "order": 5,
+    "impact": 1,
+    "loading_priority": 1
+}

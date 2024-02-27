@@ -1,0 +1,33 @@
+{
+    "order": 13,
+    "origins": [
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:origin",
+                        "origin": "compound_origins:custom_base",
+                        "layer": "origins:origin"
+                    },
+                    {
+                        "type": "origins:origin",
+                        "origin": "compound_origins:talent_none",
+                        "layer": "compound_origins:talent",
+                        "inverted": true
+                    }
+                ]
+            },
+            "origins": [
+                "compound_origins:defect_health_b",
+                "compound_origins:defect_hunger_b",
+                "compound_origins:defect_armour_b",
+                "compound_origins:defect_attack_speed_b",
+                "compound_origins:defect_healing_b"
+            ]
+        }
+    ],
+    "enabled": true,
+    "loading_priority": 1,
+    "allow_random": true
+}

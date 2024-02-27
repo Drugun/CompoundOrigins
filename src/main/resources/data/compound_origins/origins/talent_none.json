@@ -1,0 +1,9 @@
+{
+    "powers": [
+    ],
+    "icon": {
+        "item": "minecraft:air"
+    },
+    "impact": 1,
+    "loading_priority": 1
+}
