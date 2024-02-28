@@ -4,7 +4,7 @@
     "entity_action": {
         "type": "origins:change_resource",
         "resource": "compound_origins:earth_resource",
-        "change": -5
+        "change": -4
     },
     "condition": {
         "type": "origins:resource",

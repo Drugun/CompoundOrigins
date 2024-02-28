@@ -45,10 +45,10 @@
   "origin.compound_origins.folk_faun.description": "You are a graceful and swift ruminant-resembling creature.",
 
   "origin.compound_origins.folk_lupine.name": "Luamane",
-  "origin.compound_origins.folk_lupine.description": "You are a wolf-like night-time creature.",
+  "origin.compound_origins.folk_lupine.description": "You are a quick wolf-like night-time creature.",
 
   "origin.compound_origins.folk_lizard.name": "Wraitscal",
-  "origin.compound_origins.folk_lizard.description": "You are an elusive serpentine creature.",
+  "origin.compound_origins.folk_lizard.description": "You are an elusive saurian creature.",
 
   "origin.compound_origins.folk_octopus.name": "Benthite",
   "origin.compound_origins.folk_octopus.description": "You are a soft-bodied creature equipped with strange abilities.",
@@ -132,19 +132,19 @@
   "origin.compound_origins.talent_superstomach.description": "You can eat grass and leaves, although you will be temporarily slowed.",
 
   "origin.compound_origins.talent_cooldown_fire.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_fire.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_fire.description": "Your affinity-related active abilities recharge 20% faster.",
 
   "origin.compound_origins.talent_cooldown_earth.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_earth.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_earth.description": "Your affinity-related active abilities recharge 20% faster.",
 
   "origin.compound_origins.talent_cooldown_water.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_water.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_water.description": "Your affinity-related active abilities recharge 20% faster.",
 
   "origin.compound_origins.talent_cooldown_air.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_air.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_air.description": "Your affinity-related active abilities recharge 20% faster.",
 
   "origin.compound_origins.talent_cooldown_nature.name": "Faster recharge",
-  "origin.compound_origins.talent_cooldown_nature.description": "Your affinity-related active abilities recharge faster.",
+  "origin.compound_origins.talent_cooldown_nature.description": "Your affinity-related active abilities recharge 20% faster.",
 
   "origin.compound_origins.talent_none.name": "None",
   "origin.compound_origins.talent_none.description": "No talent. Picking this allows choosing one less defect.",
@@ -191,19 +191,19 @@
   "origin.compound_origins.defect_herbivore.description": "You cannot eat meat.",
 
   "origin.compound_origins.defect_cooldown_fire.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_fire.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_fire.description": "Your affinity-related active abilities recharge 40% slower.",
 
   "origin.compound_origins.defect_cooldown_earth.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_earth.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_earth.description": "Your affinity-related active abilities recharge 40% slower.",
 
   "origin.compound_origins.defect_cooldown_water.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_water.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_water.description": "Your affinity-related active abilities recharge 40% slower.",
 
   "origin.compound_origins.defect_cooldown_air.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_air.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_air.description": "Your affinity-related active abilities recharge 40% slower.",
 
   "origin.compound_origins.defect_cooldown_nature.name": "Slower recharge",
-  "origin.compound_origins.defect_cooldown_nature.description": "Your affinity-related active abilities recharge slower.",
+  "origin.compound_origins.defect_cooldown_nature.description": "Your affinity-related active abilities recharge 40% slower.",
 
 
 
@@ -380,7 +380,7 @@
   "power.compound_origins.air_push_area.description": "Summon a strong gust of air to push nearby foes away.",
 
   "power.compound_origins.nature_wall.name": "Wild growth",
-  "power.compound_origins.nature_wall.description": "Sprout tangled roots to temporarily block or create paths.",
+  "power.compound_origins.nature_wall.description": "Sprout tangled roots to temporarily block or create paths. Quick usages (5s) in close proximity (8 blocks) creates continuous walls.",
 
   "power.compound_origins.stone_wall.name": "Stone wall",
   "power.compound_origins.stone_wall.description": "Form a stone wall to temporarily block foes.",
