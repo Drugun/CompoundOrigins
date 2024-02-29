@@ -3,23 +3,12 @@ package net.drugunMC.compound_origins.entity.projectile;
 import net.drugunMC.compound_origins.CompoundOrigins;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.hit.EntityHitResult;
-import net.minecraft.util.hit.HitResult;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Box;
-import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
-import java.util.List;
-
-import static net.drugunMC.compound_origins.CompoundOrigins.TEMPORARY_BLOCKS;
 
 public class WaterAffinityProjectileWall extends BlockSpawningProjectile {
 
@@ -52,7 +41,7 @@ public class WaterAffinityProjectileWall extends BlockSpawningProjectile {
             World world = this.getWorld();
             world.syncWorldEvent(null, 59747846, impactPos, 0);
             impactPos = dropPos(impactPos, 3);
-            makePillar(4, impactPos, Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_ice")).getDefaultState(), true);
+            makePillar(4, impactPos, Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_ice")).getDefaultState(), true);
             phase = 2;
             lifetime = 5;
         }
@@ -60,7 +49,7 @@ public class WaterAffinityProjectileWall extends BlockSpawningProjectile {
             for(int i = -1; i <= 1; i++){
                 for(int j = -1; j <= 1; j++){
                     if(!(i == 0 && j == 0)){
-                        makePillar(4, impactPos.add(i, 0, j), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_ice")).getDefaultState(), true);
+                        makePillar(4, impactPos.add(i, 0, j), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_ice")).getDefaultState(), true);
                     }
                 }
             }

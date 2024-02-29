@@ -2,18 +2,15 @@ package net.drugunMC.compound_origins.entity.projectile;
 
 import net.drugunMC.compound_origins.CompoundOrigins;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityGroup;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -47,7 +44,7 @@ public class NatureAffinityProjectileWall extends BlockSpawningProjectile {
             world.syncWorldEvent(null, 59747847, impactPos, 0);
             impactPos = dropPos(impactPos, 2);
 
-            makePillar(3, dropPos(impactPos, 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_roots")).getDefaultState(), false);
+            makePillar(3, dropPos(impactPos, 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_roots")).getDefaultState(), false);
 
             Box box = this.getBoundingBox().expand(8.0, 3.0, 8.0);
             List<Entity> list = this.getWorld().getOtherEntities(this, box);
@@ -64,7 +61,7 @@ public class NatureAffinityProjectileWall extends BlockSpawningProjectile {
                             for(int i = 0; i < 12; i++){
                                 bp2 = BlockPos.ofFloored( posnew.add(vec.multiply((float)i / 12f)) );
                                 if(bp2 != bp){
-                                    makePillar(3, dropPos(bp2, 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_roots")).getDefaultState(), false);
+                                    makePillar(3, dropPos(bp2, 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_roots")).getDefaultState(), false);
                                     bp = bp2;
                                 }
                             }

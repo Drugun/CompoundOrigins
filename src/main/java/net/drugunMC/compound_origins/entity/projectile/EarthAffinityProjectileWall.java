@@ -5,10 +5,9 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.registry.Registry;
 import net.minecraft.world.World;
 
 public class EarthAffinityProjectileWall extends BlockSpawningProjectile {
@@ -43,18 +42,18 @@ public class EarthAffinityProjectileWall extends BlockSpawningProjectile {
             world.syncWorldEvent(null, 59747848, impactPos, 0);
             //impactPos = dropPos(impactPos, 3);
 
-            makePillar(4, dropPos(impactPos, 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+            makePillar(4, dropPos(impactPos, 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             phase = 2;
             lifetime = 2;
         }
         else if(phase == 2){
             if(impactHeading == Direction.NORTH || impactHeading == Direction.SOUTH){
-                makePillar(4, dropPos(impactPos.add(1,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(-1,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(1,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(-1,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
             else{
-                makePillar(4, dropPos(impactPos.add(0,0,1), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(0,0,-1), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,1), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,-1), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
 
             phase = 3;
@@ -62,12 +61,12 @@ public class EarthAffinityProjectileWall extends BlockSpawningProjectile {
         }
         else if(phase == 3){
             if(impactHeading == Direction.NORTH || impactHeading == Direction.SOUTH){
-                makePillar(4, dropPos(impactPos.add(2,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(-2,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(2,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(-2,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
             else{
-                makePillar(4, dropPos(impactPos.add(0,0,2), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(0,0,-2), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,2), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,-2), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
 
             phase = 4;
@@ -75,12 +74,12 @@ public class EarthAffinityProjectileWall extends BlockSpawningProjectile {
         }
         else if(phase == 4){
             if(impactHeading == Direction.NORTH || impactHeading == Direction.SOUTH){
-                makePillar(4, dropPos(impactPos.add(3,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(-3,0,0), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(3,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(-3,0,0), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
             else{
-                makePillar(4, dropPos(impactPos.add(0,0,3), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
-                makePillar(4, dropPos(impactPos.add(0,0,-3), 1), Registries.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,3), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
+                makePillar(4, dropPos(impactPos.add(0,0,-3), 1), Registry.BLOCK.get(new Identifier(CompoundOrigins.ModID, "temporary_cobblestone")).getDefaultState(), false);
             }
 
             this.discard();

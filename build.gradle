@@ -102,9 +102,9 @@ dependencies {
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 	include "io.wispforest:owo-sentinel:${project.owo_version}"
 
-	modImplementation "io.github.ladysnake:PlayerAbilityLib:${project.pal_version}"
-	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cc_version}"
-	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cc_version}"
+	//modImplementation "io.github.ladysnake:PlayerAbilityLib:${project.pal_version}"
+	//modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cc_version}"
+	//modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cc_version}"
 
 	modImplementation "maven.modrinth:icarus:${project.icarus_version}"
 	modImplementation "maven.modrinth:origins:${project.origins_version}"
@@ -112,11 +112,11 @@ dependencies {
 	//modImplementation "com.github.eggohito:eggolib:${project.eggolib_version}"
 	//include "com.github.eggohito:eggolib:${project.eggolib_version}"
 
-	modImplementation(include("net.merchantpug:Apugli:${project.apugli_version}-fabric"))
+	//modImplementation(include("net.merchantpug:Apugli:${project.apugli_version}-fabric"))
 	//modImplementation "maven.modrinth:apugli:${project.apugli_version}"
-	//include "maven.modrinth:apugli:${project.apugli_version}"
+	include "maven.modrinth:apugli:${project.apugli_version}"
 
-	modImplementation "com.github.apace100:apoli:v${project.apoli_version}"
+	modImplementation "com.github.apace100:apoli:${project.apoli_version}"
 
 	modImplementation "maven.modrinth:trinkets:${project.trinkets_version}"
 
